@@ -1,4 +1,18 @@
+:root {
+  --main-color: #136445;
+  --main-color-rgb: 19, 100, 69;
+  --highlight-color: #0c987c;
+  --highlight-color-rgb: 12, 152, 124;
+  --secondary-color: #ffffff;
+  --secondary-color-rgb: 255, 255, 255;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
 body {
+  overflow-x: hidden;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +24,122 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+}
+
+.major-mono-display-regular {
+  font-family: "Major Mono Display", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.jacquard-12-regular {
+  font-family: "Jacquard 12", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.main-color-font {
+  color: var(--main-color);
+}
+
+.bg-light {
+  --bs-bg-opacity: 0.9;
+  background-color: rgba(var(--highlight-color-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show, .nav-link:focus{
+  color: var(--main-color);
+  font-weight: bolder;
+}
+
+.nav-link:hover{
+  color: var(--main-color);
+}
+
+.nav-link {
+  color: var(--secondary-color);
+}
+
+html {
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: var(--main-color) #f0f0f0; /* Scrollbar color and track color */
+}
+
+#root::-webkit-scrollbar {
+  width: 25px !important;
+  height: 25px !important;
+}
+
+#root::-webkit-scrollbar-track {
+  background: var(--highlight-color); /* Background of the scrollbar track */
+  border-radius: 10px; /* Rounded corners for the track */
+  margin: 2px; /* Adding margin to make the corners fully rounded */
+}
+
+#root::-webkit-scrollbar-thumb {
+  background-color: var(--highlight-color) !important; /* Color of the scrollbar handle */
+  border-radius: 10px !important; /* Rounded corners for the handle */
+  border: 3px solid #f1f1f1 !important; /* Space around the handle to enhance the rounded effect */
+}
+
+#root::-webkit-scrollbar-thumb:hover {
+  background-color: var(--highlight-color); /* Color on hover */
+}
+
+/* To ensure rounded corners for both horizontal and vertical scrollbars */
+#root::-webkit-scrollbar-corner {
+  background-color: var(--highlight-color);
+  border-radius: 10px;
+}
+
+.btn-primary {
+  --bs-btn-color: var(--secondary-color);
+  --bs-btn-bg: var(--main-color);
+  --bs-btn-border-color: var(--main-color);
+  --bs-btn-hover-color: var(--main-color);
+  --bs-btn-hover-bg: var(--highlight-color);
+  --bs-btn-hover-border-color: var(--main-color);
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: var(--secondary-color);
+  --bs-btn-active-bg: var(--main-color);
+  --bs-btn-active-border-color: var(--highlight-color);
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: var(--secondary-color);
+  --bs-btn-disabled-bg: var(--main-color);
+  --bs-btn-disabled-border-color: var(--main-color);
+}
+
+.main-color-font {
+  color: var(--main-color);
+}
+
+.main-color-border {
+  border-width: 2px !important;
+  --bs-border-opacity: 1;
+  border-color: rgba(var(--main-color-rgb), var(--bs-border-opacity)) !important;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  font-size: 1.5rem;
+  background: var(--main-color);
+  border: var(--secondary-color) solid 2px;
+}
+
+.back-to-top:hover {
+  background: var(--main-color);
+  border: black solid 2px;
 }

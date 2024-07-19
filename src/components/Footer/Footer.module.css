@@ -1,0 +1,13 @@
+.footer {
+    color: var(--secondary-color);
+    background-color: var(--main-color);
+}
+
+.footerSocial a {
+    color: rgba(var(--highlight-color-rgb), var(--bs-link-opacity, 1));
+}
+
+.footerInfo a, .copyright a, .copyright p {
+    color: rgba(var(--secondary-color-rgb), var(--bs-link-opacity, 1));
+    text-decoration: solid !important;
+}
