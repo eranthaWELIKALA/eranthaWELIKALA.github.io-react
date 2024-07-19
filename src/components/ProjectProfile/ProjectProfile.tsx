@@ -68,7 +68,7 @@ export default function ProjectProfile() {
             techStack:
                 "Frontend: React, Hosting: Github",
             projectOwner: "Erantha Welikala",
-            githubRepos: "https://github.com/eranthaWELIKALA/eranthaWELIKALA.github.io.git",
+            githubRepos: ["https://github.com/eranthaWELIKALA/eranthaWELIKALA.github.io.git", "https://github.com/eranthaWELIKALA/eranthaWELIKALA.github.io-react.git"],
             links: "eranthawelikala.github.io",
             image: portfolioImg,
         },
