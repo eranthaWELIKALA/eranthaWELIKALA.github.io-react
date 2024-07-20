@@ -3,29 +3,44 @@ import styles from "./Footer.module.css";
 function Footer() {
     return (
         <div
-            className={`${styles.footer} d-flex flex-column justify-content-center allign-items-center jacquard-12-regular`}
+            className={`${styles.footer} d-flex flex-column justify-content-center align-items-center jacquard-12-regular`}
         >
             <div className="container-fluid mt-3">
                 <div className="container">
-                    <div className="d-flex flex-column justify-content-center allign-items-center">
+                    <div className="d-flex flex-column justify-content-center align-items-center">
                         <div className="h1">Erantha Welikala</div>
                         <div className="h2">Sri Lanka</div>
                         <div
-                            className={`${styles.footerInfo} h2 d-flex flex-row justify-content-center allign-items-center`}
+                            className={`${styles.footerInfo} h4 d-flex flex-row justify-content-center align-items-center`}
                         >
-                            <span>+94 77 5778979</span>
-                            <span className="mx-2">|</span>
-                            <span>
-                                <a href="mailto:eranthawelikala@gmail.com">
-                                    eranthawelikala@gmail.com
-                                </a>
-                            </span>
-                            <span className="mx-2">|</span>
-                            <span>
-                                <a href="mailto:eranthawelikala@eng.pdn.ac.lk">
-                                    eranthawelikala@eng.pdn.ac.lk
-                                </a>
-                            </span>
+                            <div className="d-none d-md-block">
+                                <span>+94 77 5778979</span>
+                                <span className="mx-2">|</span>
+                                <span>
+                                    <a href="mailto:eranthawelikala@gmail.com">
+                                        eranthawelikala@gmail.com
+                                    </a>
+                                </span>
+                                <span className="mx-2">|</span>
+                                <span>
+                                    <a href="mailto:eranthawelikala@eng.pdn.ac.lk">
+                                        eranthawelikala@eng.pdn.ac.lk
+                                    </a>
+                                </span>
+                            </div>
+                            <div className="d-block d-md-none">
+                                <div className="row text-center"><span>+94 77 5778979</span></div>
+                                <span className="row text-center">
+                                    <a href="mailto:eranthawelikala@gmail.com">
+                                        eranthawelikala@gmail.com
+                                    </a>
+                                </span>
+                                <span className="row text-center">
+                                    <a href="mailto:eranthawelikala@eng.pdn.ac.lk">
+                                        eranthawelikala@eng.pdn.ac.lk
+                                    </a>
+                                </span>
+                            </div>
                         </div>
                         <div className={`${styles.footerSocial} h3`}>
                             <a
@@ -72,7 +87,9 @@ function Footer() {
                     </p>
                 </div>
             </div>
-            <a href="#" className="btn back-to-top"><i className="fa fa-chevron-up"></i></a>
+            <a href="#" className="btn back-to-top">
+                <i className="fa fa-chevron-up"></i>
+            </a>
         </div>
     );
 }

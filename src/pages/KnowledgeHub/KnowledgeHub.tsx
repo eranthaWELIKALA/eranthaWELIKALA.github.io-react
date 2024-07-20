@@ -13,8 +13,10 @@ import mysqlImg from '../../assets/images/knowledge-hub/mysql.png';
 import firebaseImg from '../../assets/images/knowledge-hub/firebase.png';
 import mongoDBImg from '../../assets/images/knowledge-hub/mongodb.png';
 import dotnetImg from '../../assets/images/knowledge-hub/dotnet.png';
+import usePageTracking from '../../usePageTracking';
 
 export default function KnowledgeHub() {
+    usePageTracking();
     let knowledgePoints = [
         {
             technology: "Java",

@@ -1,7 +1,15 @@
 import { NavLink } from "react-router-dom";
+import { useRef } from "react";
 
 function Navbar() {
     const name = "Erantha";
+    const navbarCollapseRef = useRef<HTMLDivElement>(null);
+
+    const handleNavLinkClick = () => {
+        if (navbarCollapseRef.current && navbarCollapseRef.current?.classList.contains("show")) {
+            navbarCollapseRef.current.classList.remove("show");
+        }
+    };
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light user-select-none">
             <div className="container-fluid">
@@ -19,7 +27,7 @@ function Navbar() {
                 >
                     <span className="navbar-toggler-icon"></span>
                 </button>
-                <div className="collapse navbar-collapse" id="navbarNav">
+                <div className="collapse navbar-collapse" id="navbarNav" ref={navbarCollapseRef}>
                     <ul className="navbar-nav ms-auto">
                         <li className="nav-item">
                             <NavLink
@@ -29,6 +37,7 @@ function Navbar() {
                                 }
                                 end
                                 aria-current="page"
+                                onClick={handleNavLinkClick}
                             >
                                 Home
                             </NavLink>
@@ -41,6 +50,7 @@ function Navbar() {
                                 }
                                 end
                                 aria-current="page"
+                                onClick={handleNavLinkClick}
                             >
                                 Experience
                             </NavLink>
@@ -53,6 +63,7 @@ function Navbar() {
                                 }
                                 end
                                 aria-current="page"
+                                onClick={handleNavLinkClick}
                             >
                                 Contact
                             </NavLink>
@@ -65,6 +76,7 @@ function Navbar() {
                                 }
                                 end
                                 aria-current="page"
+                                onClick={handleNavLinkClick}
                             >
                                 About
                             </NavLink>
@@ -77,6 +89,7 @@ function Navbar() {
                                 }
                                 end
                                 aria-current="page"
+                                onClick={handleNavLinkClick}
                             >
                                 Projects
                             </NavLink>
@@ -89,6 +102,7 @@ function Navbar() {
                                 }
                                 end
                                 aria-current="page"
+                                onClick={handleNavLinkClick}
                             >
                                 Knowledge Lib
                             </NavLink>

@@ -17,8 +17,10 @@ import rtqwmsImg from "../../assets/images/projects/rtwqms.png";
 import smpeaImg from "../../assets/images/projects/smpea.png";
 import thunderCricketImg from "../../assets/images/projects/thunder-cricket.png";
 import "./ProjectProfile.css";
+import usePageTracking from "../../usePageTracking";
 
 export default function ProjectProfile() {
+    usePageTracking();
     let projects = [
         {
             title: "Stock Market Prediction Using an Ensemble Approach	",

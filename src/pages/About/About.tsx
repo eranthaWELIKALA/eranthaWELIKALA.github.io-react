@@ -1,8 +1,10 @@
 import styles from "./About.module.css";
 import myImage from "../../assets/images/me.png";
 import cvFile from "../../assets/cv/EranthaWelikala20240520.pdf";
+import usePageTracking from "../../usePageTracking";
 
 function About() {
+    usePageTracking();
     const handleDownload = () => {
         const link = document.createElement("a");
         link.href = cvFile;
