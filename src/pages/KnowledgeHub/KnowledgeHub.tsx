@@ -150,7 +150,7 @@ export default function KnowledgeHub() {
                 Technologies/ Languages
             </h1>
             <div className="mx-3 user-select-none main-color-font">
-                <div className="d-flex flex-row major-mono-display-regular mx-3">
+                <div className="d-none d-md-flex flex-row major-mono-display-regular mx-3">
                     <div className="col-md-3">Tech/ Language</div>
                     <div className="col-md-3">Classification</div>
                     <div className="col-md-3">Description</div>
