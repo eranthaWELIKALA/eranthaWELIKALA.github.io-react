@@ -16,6 +16,7 @@ import portfolioImg from "../../assets/images/projects/portfolio.png";
 import rtqwmsImg from "../../assets/images/projects/rtwqms.png";
 import smpeaImg from "../../assets/images/projects/smpea.png";
 import thunderCricketImg from "../../assets/images/projects/thunder-cricket.png";
+import gitProfileManagerImg from "../../assets/images/projects/git-profile-manager.png";
 import "./ProjectProfile.css";
 import usePageTracking from "../../usePageTracking";
 
@@ -84,6 +85,17 @@ export default function ProjectProfile() {
             githubRepos: "https://github.com/eranthaWELIKALA/Alternative-AWS-S3-Bucket.git",
             links: "https://hub.docker.com/r/eranthawelikala/storage-service",
             image: altS3Img,
+        },
+        {
+            title: "GIT Profile Manager",
+            description:
+                "Command line application which helps users to manage multiple GIT profiles within the same system. Using this, users can easily config their local git repositories instead of following a complex set of steps/commands.",
+            techStack:
+                "Technologies: Batch Scripts, Inno Setup, Shell Scripts",
+            projectOwner: "Erantha Welikala",
+            githubRepos: "https://github.com/eranthaWELIKALA/GIT-Profile-Manager",
+            links: "https://eranthawelikala.github.io/GIT-Profile-Manager/",
+            image: gitProfileManagerImg,
         },
         {
             title: "Mock REST API",
