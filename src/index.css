@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 250 40% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 250 40% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 250 40% 15%;
+
+    --primary: 260 75% 58%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 270 70% 68%;
+
+    --secondary: 250 10% 96%;
+    --secondary-foreground: 250 40% 15%;
+
+    --muted: 250 8% 96%;
+    --muted-foreground: 250 10% 45%;
+
+    --accent: 280 65% 60%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 250 15% 90%;
+    --input: 250 15% 90%;
+    --ring: 260 75% 58%;
+
+    --radius: 0.75rem;
+
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(260 75% 58%), hsl(280 65% 60%));
+    --gradient-code: linear-gradient(to right, hsl(260 75% 58%), hsl(200 70% 55%));
+    --gradient-subtle: linear-gradient(180deg, hsl(0 0% 100%), hsl(250 20% 98%));
+    --gradient-mesh: radial-gradient(at 40% 20%, hsl(260 75% 58% / 0.15), transparent 50%), radial-gradient(at 80% 0%, hsl(280 65% 60% / 0.15), transparent 50%), radial-gradient(at 0% 50%, hsl(200 70% 55% / 0.1), transparent 50%);
+    
+    /* Shadows */
+    --shadow-elegant: 0 10px 30px -10px hsl(260 75% 58% / 0.25);
+    --shadow-glow: 0 0 40px hsl(270 70% 68% / 0.35);
+    --shadow-code: 0 4px 20px hsl(260 75% 58% / 0.15);
+    
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+  .dark {
+    --background: 250 50% 7%;
+    --foreground: 250 10% 95%;
+
+    --card: 250 40% 10%;
+    --card-foreground: 250 10% 95%;
+
+    --popover: 250 40% 10%;
+    --popover-foreground: 250 10% 95%;
+
+    --primary: 260 80% 65%;
+    --primary-foreground: 250 50% 7%;
+    --primary-glow: 270 75% 75%;
+
+    --secondary: 250 30% 15%;
+    --secondary-foreground: 250 10% 95%;
+
+    --muted: 250 30% 15%;
+    --muted-foreground: 250 10% 70%;
+
+    --accent: 280 70% 68%;
+    --accent-foreground: 250 50% 7%;
+
+    --destructive: 0 62.8% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 250 30% 18%;
+    --input: 250 30% 18%;
+    --ring: 260 80% 65%;
+    
+    /* Dark mode gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(260 80% 65%), hsl(280 70% 68%));
+    --gradient-code: linear-gradient(to right, hsl(260 80% 65%), hsl(200 75% 60%));
+    --gradient-subtle: linear-gradient(180deg, hsl(250 50% 7%), hsl(250 40% 10%));
+    --gradient-mesh: radial-gradient(at 40% 20%, hsl(260 80% 65% / 0.2), transparent 50%), radial-gradient(at 80% 0%, hsl(280 70% 68% / 0.2), transparent 50%), radial-gradient(at 0% 50%, hsl(200 75% 60% / 0.15), transparent 50%);
+    
+    /* Dark mode shadows */
+    --shadow-elegant: 0 10px 30px -10px hsl(260 80% 65% / 0.4);
+    --shadow-glow: 0 0 40px hsl(270 75% 75% / 0.5);
+    --shadow-code: 0 4px 20px hsl(260 80% 65% / 0.2);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    user-select: none;
+  }
+}

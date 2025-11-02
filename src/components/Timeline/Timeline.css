@@ -1,0 +1,202 @@
+.main-timeline {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.main-timeline:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.main-timeline:before {
+    content: '';
+    background-color: var(--main-color);
+    height: 100%;
+    width: 4px;
+    transform: translateX(-50%);
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0
+}
+
+.main-timeline .timeline {
+    width: 50%;
+    padding: 3px 0;
+    margin: 0 2px 0 0;
+    float: left;
+    transform: translateX(-50%);
+    transition: all 0.5s ease-out;
+}
+
+.main-timeline .timeline:nth-child(even) {
+    transform: translateX(50%);
+    transition: all 0.5s ease-out;
+}
+
+.main-timeline .timeline.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.main-timeline .timeline-content {
+    color: #777;
+    padding: 0 130px 0 0;
+    display: block;
+    position: relative;
+}
+
+.main-timeline .timeline-content {
+    text-decoration: none;
+}
+
+.main-timeline .timeline-content:before {
+    content: '';
+    background: #fff;
+    width: 20px;
+    height: 20px;
+    border: 3px solid var(--main-color);
+    border-radius: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    right: -10px;
+    top: 50%;
+}
+
+.main-timeline .timeline-icon {
+    color: #fff;
+    background-color: #FE553B;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 80px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 10px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    transform: translateY(-50%);
+    position: absolute;
+    top: 50%;
+    right: 11px;
+    z-index: 1;
+}
+
+.main-timeline .title {
+    color: #FE553B;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    margin: 0 0 8px;
+    margin-left: 10px;
+}
+
+.main-timeline .sub-title {
+    margin-left: 10px;
+}
+
+.main-timeline .description {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 22px;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.main-timeline .timeline:nth-child(even) {
+    margin: 0 0 0 2px;
+    float: right;
+}
+
+.main-timeline .timeline:nth-child(even) .timeline-content {
+    padding: 0 0 0 130px;
+}
+
+.main-timeline .timeline:nth-child(even) .timeline-content:before {
+    right: auto;
+    left: -10px;
+}
+
+.main-timeline .timeline:nth-child(even) .timeline-icon {
+    right: auto;
+    left: 11px;
+}
+
+.main-timeline .timeline:nth-child(4n+2) .timeline-icon {
+    background-color: #5CC33A;
+}
+
+.main-timeline .timeline:nth-child(4n+2) .title {
+    color: #5CC33A;
+}
+
+.main-timeline .timeline:nth-child(4n+3) .timeline-icon {
+    background-color: #009B99;
+}
+
+.main-timeline .timeline:nth-child(4n+3) .title {
+    color: #009B99;
+}
+
+.main-timeline .timeline:nth-child(4n+4) .timeline-icon {
+    background-color: #FE3356;
+}
+
+.main-timeline .timeline:nth-child(4n+4) .title {
+    color: #FE3356;
+}
+
+@media screen and (max-width:767px) {
+    .main-timeline:before {
+        transform: translateX(0);
+        left: 23px;
+    }
+
+    .main-timeline .timeline,
+    .main-timeline .timeline:nth-child(even) {
+        width: 100%;
+        margin: 0 0 20px;
+    }
+
+    .main-timeline .timeline-content,
+    .main-timeline .timeline:nth-child(even) .timeline-content {
+        padding: 0 0 0 150px;
+    }
+
+    .main-timeline .timeline-content:before,
+    .main-timeline .timeline:nth-child(even) .timeline-content:before {
+        left: 0;
+    }
+
+    .main-timeline .timeline-icon,
+    .main-timeline .timeline:nth-child(even) .timeline-icon {
+        left: 20px;
+        right: auto;
+    }
+}
+
+@media screen and (max-width:479px) {
+
+    .main-timeline .timeline-content,
+    .main-timeline .timeline:nth-child(even) .timeline-content {
+        padding: 120px 0 0 25px;
+    }
+
+    .main-timeline .timeline-content:before,
+    .main-timeline .timeline:nth-child(even) .timeline-content:before {
+        transform: translateY(0);
+        top: 43px;
+    }
+
+    .main-timeline .timeline-icon,
+    .main-timeline .timeline:nth-child(even) .timeline-icon {
+        transform: translateY(0);
+        top: 0;
+    }
+}

@@ -1,0 +1,1079 @@
+[Interface]
+Language=0
+
+[ScanRecovery]
+ScanBlank=0
+OpenFolder=1
+
+[DiskFeedBack]
+DiskFeedback=1
+
+[Hint]
+Hint=1
+
+[Update]
+CheckForUpdate=30
+
+[TypeNum]
+supportTypeNum=96
+
+[SupportSearchTypeAttr]
+supportsearchtype1=JPEG Images                                   |JPG|1024|1
+supportsearchtype2=Tiff Images                                   |TIF|1024|1
+supportsearchtype3=PNG Files                                     |PNG|1025|1
+supportsearchtype4=BMP Files                                     |BMP|1026|1
+supportsearchtype5=GIF Files                                     |GIF|1027|1
+supportsearchtype6=Adobe Photoshop                               |PSD|1028|1
+supportsearchtype7=Canon (CRW)                                   |CRW|1029|1
+supportsearchtype8=Canon (CR2)                                   |CR2|1030|1
+supportsearchtype9=Nikon                                         |NEF|1030|1
+supportsearchtype10=Olympus                                      |ORF|1030|1
+supportsearchtype11=Fuji                                         |RAF|1030|1
+supportsearchtype12=Sony                                         |SR2|1030|1
+supportsearchtype13=Minolta                                      |MRW|1030|1
+supportsearchtype14=Kodak (DCR)                                  |DCR|1030|1
+supportsearchtype15=Windows Graphics Metafile                    |WMF|1030|1
+supportsearchtype16=DNG Files                                    |DNG|1030|1
+supportsearchtype17=Epson                                        |ERF|1030|1
+supportsearchtype18=RAW Files                                    |RAW|1030|1
+supportsearchtype19=AIF Files                                    |AIF|1030|2
+supportsearchtype20=M4A Files                                    |M4A|1030|2
+supportsearchtype21=MP3 Files                                    |MP3|1030|2
+supportsearchtype22=WAV Files                                    |WAV|1030|2
+supportsearchtype23=Windows Media Audio                          |WMA|1030|2
+supportsearchtype24=Musical Instrument Digital Interface         |MID|1030|2
+supportsearchtype25=OGG Files                                    |OGG|1030|2
+supportsearchtype26=AAC Files                                    |AAC|1030|2
+supportsearchtype27=Audio Video Interleave                       |AVI|1030|3
+supportsearchtype28=QuickTime Movie                              |MOV|1030|3
+supportsearchtype29=MP4 Files                                    |MP4|1030|3
+supportsearchtype30=M4V Files                                    |M4V|1030|3
+supportsearchtype31=3GP Files                                    |3GP|1030|3
+supportsearchtype32=3G2 Files                                    |3G2|1030|3
+supportsearchtype33=Windows Media Video                          |WMV|1030|3
+supportsearchtype34=Windows Media                                |ASF|1030|3
+supportsearchtype35=Flash Video                                  |FLV|1030|3
+supportsearchtype36=Macromedia Flash Format                      |SWF|1030|3
+supportsearchtype37=MPEG Movie File                              |MPG|1030|3
+supportsearchtype38=Real Media                                   |RM|1030|3
+supportsearchtype39=MS Excel (Office 97/2000/XP/2003)            |DOC|1030|4
+supportsearchtype40=MS Word (Office 2007)                        |DOCX|1030|4
+supportsearchtype41=MS Excel (Office 97/2000/XP/2003)            |XLS|1030|4
+supportsearchtype42=MS Excel (Office 2007)                       |XLSX|1030|4
+supportsearchtype43=MS PowerPoint (Office 97/2000/XP/2003)       |PPT|1030|4
+supportsearchtype44=MS PowerPoint (Office 2007)                  |PPTX|1030|4
+supportsearchtype45=Adobe Acrobat Reader                         |PDF|1030|4
+supportsearchtype46=CWK Files                                    |CWK|1030|4
+supportsearchtype47=HyperTextMarkup Language                     |HTM|1030|4
+supportsearchtype48=Adobe InDesign                               |INDD|1030|4
+supportsearchtype49=Adobe Encapsulated PostScript                |EPS|1030|4
+supportsearchtype50=Winzip Compressed File                       |ZIP|1030|5
+supportsearchtype51=Winrar Compressed File                       |RAR|1030|5
+supportsearchtype52=Stuffit Archive File                         |SIT|1030|5
+supportsearchtype53=Microsoft Outlook Data File                  |PST|1030|6
+supportsearchtype54=Outlook Express Email Storage File           |DBX|1030|6
+supportsearchtype55=Mac Mail                                     |EMLX|1030|6
+supportsearchtype56=Sony                                         |ARW|1030|1
+supportsearchtype57=Nikon                                        |NRW|1030|1
+supportsearchtype58=Pentax                                       |PEF|1030|1
+supportsearchtype59=Panasonic                                    |RW2|1030|1
+supportsearchtype60=Sigma or Polaroid                            |X3F|1030|1
+supportsearchtype61=GoPro                                        |GPR|1030|1
+supportsearchtype62=Hasselblad                                   |3FR|1030|1
+supportsearchtype63=Hasselblad                                   |FFF|1030|1
+supportsearchtype64=svg File                                     |SVG|1030|4
+supportsearchtype65=Sketch File                                  |SKETCH|1030|4
+supportsearchtype66=Sqlite database File                         |SQLITE|1030|4
+supportsearchtype67=DWF File                                     |DWF|1030|4
+supportsearchtype68=XD File                                      |XD|1030|4
+supportsearchtype69=IDML File                                    |IDML|1030|4
+supportsearchtype70=DWG File                                     |DWG|1030|4
+supportsearchtype71=cdr File                                     |CDR|1030|4
+supportsearchtype72=Illustrator AI  File                         |AI|1030|4
+supportsearchtype73=INDT File                                    |INDT|1030|4
+supportsearchtype74=DWS File                                     |DWS|1030|4
+supportsearchtype75=DWT File                                     |DWT|1030|4
+supportsearchtype76=DXF File                                     |DXF|1030|4
+supportsearchtype77=Mpeg-2 Transport Stream                      |M2TS|1030|3
+supportsearchtype78=Mpeg Transport Stream                        |M2T|1030|3
+supportsearchtype79=Mpeg Transport Stream                        |MTS|1030|3
+supportsearchtype80=HWP Document File                            |HWP|1030|4
+supportsearchtype81=Hangul Word Processor 2010 Document          |HWPX|1030|4
+supportsearchtype82=Rich Text Document                           |RTF|1030|4
+supportsearchtype83=VSD File                                     |VSD|1030|4
+supportsearchtype84=iWork Pages                                  |PAGES|1030|4
+supportsearchtype85=iWork Numbers                                |NUMBERS|1030|4
+supportsearchtype86=iWork Keynote                                |KEY|1030|4
+supportsearchtype87=MXF Video                                    |MXF|1030|3
+supportsearchtype88=ARRI ARI Video                               |ARI|1030|3
+supportsearchtype89=ARRI ARX Video                               |ARX|1030|3
+supportsearchtype90=RED Raw Video                                |R3D|1030|3
+supportsearchtype91=MKV Video                                    |MKV|1030|3
+supportsearchtype92=7Z archive file                              |7Z|1030|5
+supportsearchtype93=HEIC                                         |HEIC|1030|1
+supportsearchtype94=HIF                                          |HIF|1030|1
+supportsearchtype95=AVIF                                         |AVIF|1030|1
+supportsearchtype96=CR3 Image file                               |CR3|1030|1
+
+[LastSavePath]
+LastSavePath=C:/Users/Administrator/Desktop/
+
+[StartShow]
+StartShow=0
+ModeView=1
+
+[DeepScanGroup]
+DeepScanGroup=1000
+
+[Archive]
+FileExt1=7Z
+FileExt2=ACE
+FileExt3=ALZ
+FileExt4=ARC
+FileExt5=ARJ
+FileExt6=BZ
+FileExt7=BZIP
+FileExt8=CAB
+FileExt9=DBS
+FileExt10=DEB
+FileExt11=GZ
+FileExt12=JAR
+FileExt13=KRYPTER
+FileExt14=LZA
+FileExt15=LZH
+FileExt16=MSI
+FileExt17=PF
+FileExt18=PKG
+FileExt19=PUP
+FileExt20=RAR
+FileExt21=SEA
+FileExt22=SFX
+FileExt23=SIT
+FileExt24=SITX
+FileExt25=SOR
+FileExt26=TAR
+FileExt27=TGZ
+FileExt28=WAR
+FileExt29=ZIP
+FileExt30=ZIPX
+FileExt31=ZOO
+FileExt32=GZIP
+FileExt33=ISO
+FileExt34=dmg
+FileExt35=rpm
+FileExt36=7zip
+FileExt40=iso9660
+FileExt41=afz
+FileExt42=PACK
+FileExt43=XAR
+FileExt44=XIP
+
+[Audio]
+FileExt1=A52
+FileExt2=AA
+FileExt3=AA3
+FileExt4=AAC
+FileExt5=AC3
+FileExt6=ACC
+FileExt7=AFC
+FileExt8=AIF
+FileExt9=AIFC
+FileExt10=AIFF
+FileExt11=AM
+FileExt12=AMR
+FileExt13=APE
+FileExt14=AT3
+FileExt15=AU
+FileExt16=CAF
+FileExt17=CDA
+FileExt18=CPF
+FileExt19=CUE
+FileExt20=CWP
+FileExt21=DMSA
+FileExt22=DMSE
+FileExt23=DSS
+FileExt24=DTS
+FileExt25=DTSWAV
+FileExt26=DVF
+FileExt27=EMP
+FileExt28=EMX
+FileExt29=FAR
+FileExt30=FBX
+FileExt31=FLAC
+FileExt32=FLP
+FileExt33=IT
+FileExt34=KAR
+FileExt35=KPI
+FileExt36=KPL
+FileExt37=LSO
+FileExt38=M1A
+FileExt39=M2A
+FileExt40=M3D
+FileExt41=M4A
+FileExt42=M4B
+FileExt43=M4P
+FileExt44=M4R
+FileExt45=MAC
+FileExt46=MID
+FileExt47=MIDI
+FileExt48=MKA
+FileExt49=MP
+FileExt50=MP+
+FileExt51=MP1
+FileExt52=MP2
+FileExt53=MP3
+FileExt54=MP3PRO
+FileExt55=MPA
+FileExt56=MPC
+FileExt57=MTM
+FileExt58=OGG
+FileExt59=OMF
+FileExt60=PTF
+FileExt61=RA
+FileExt62=RAM
+FileExt63=RFL
+FileExt64=RMI
+FileExt65=RMX
+FileExt66=RNS
+FileExt67=RPS
+FileExt68=S3M
+FileExt69=SC4
+FileExt70=SIB
+FileExt71=SMPL
+FileExt72=SND
+FileExt73=STM
+FileExt74=TAK
+FileExt75=TTA
+FileExt76=UMX
+FileExt77=VOC
+FileExt78=VPM
+FileExt79=VQF
+FileExt80=WAV
+FileExt81=WMA
+FileExt82=XM
+FileExt83=CPR
+FileExt84=TXW
+
+[DataBase]
+FileExt4=BQY
+FileExt5=BTR
+FileExt6=CAP
+FileExt7=DB
+FileExt8=DBF
+FileExt10=FDB
+FileExt11=FP5
+FileExt12=FRT
+FileExt13=LDF
+FileExt15=MDF
+FileExt16=MLB
+FileExt17=MNY
+FileExt18=NTF
+FileExt19=PPR
+FileExt20=PX
+FileExt21=QBW
+FileExt22=RDB
+FileExt23=RLL
+FileExt25=WB1
+FileExt28=XGN
+FileExt30=XNN
+FileExt31=YGN
+FileExt32=YNN
+FileExt33=SQL
+FileExt34=SQLITE
+
+[Document]
+FileExt2=12M
+FileExt3=1ST
+FileExt4=3DA
+FileExt5=3DS
+FileExt6=3TF
+FileExt7=3WS
+FileExt9=ABD
+FileExt10=ADX
+FileExt12=AMI
+FileExt13=APP
+FileExt14=ASD
+FileExt15=C
+FileExt16=CAS
+FileExt17=CBK
+FileExt18=CHM
+FileExt19=CLA
+FileExt21=CLS
+FileExt22=CLY
+FileExt23=CPG
+FileExt24=CPP
+FileExt25=CSV
+FileExt26=CTW
+FileExt27=CWK
+FileExt28=D2S
+FileExt29=DAT
+FileExt30=DIF
+FileExt31=DOC
+FileExt32=DOCM
+FileExt33=DOCX
+FileExt34=DOT
+FileExt35=DOTM
+FileExt36=DOTX
+FileExt37=EFX
+FileExt38=EPS
+FileExt39=EPUB
+FileExt40=ETP
+FileExt41=FB2
+FileExt42=FCPEVENT
+FileExt43=FDR
+FileExt44=FDT
+FileExt45=FF7
+FileExt46=FM3
+FileExt47=FMT
+FileExt48=FTW
+FileExt49=FZD
+FileExt50=GHO
+FileExt52=H
+FileExt53=INDT
+FileExt56=JIS
+FileExt57=JLB
+FileExt58=JOB
+FileExt59=JTD
+FileExt60=KEY
+FileExt61=LIT
+FileExt62=LOG
+FileExt63=LRC
+FileExt64=LWP
+FileExt65=M
+FileExt66=MCD
+FileExt67=MDZ
+FileExt68=MM
+FileExt69=MOF
+FileExt70=MPP
+FileExt71=MPS
+FileExt72=MPT
+FileExt73=NCX
+FileExt74=NIB
+FileExt75=NUMBERS
+FileExt76=ODP
+FileExt77=ODS
+FileExt78=ODT
+FileExt79=ONE
+FileExt80=OPF
+FileExt81=OTP
+FileExt82=P65
+FileExt83=PAF
+FileExt84=PAGES
+FileExt85=PDF
+FileExt86=PLIST
+FileExt87=PMD
+FileExt88=POT
+FileExt89=POTM
+FileExt90=POTX
+FileExt91=PPA
+FileExt92=PPAM
+FileExt93=PPJ
+FileExt94=PPS
+FileExt95=PPSM
+FileExt96=PPSX
+FileExt97=PPT
+FileExt98=PPTM
+FileExt99=PPTX
+FileExt100=PRN
+FileExt101=PRZ
+FileExt102=PS
+FileExt103=PUB
+FileExt104=PUZ
+FileExt105=PWI
+FileExt106=PYC
+FileExt107=PYD
+FileExt108=QBB
+FileExt109=QCF
+FileExt110=QDF
+FileExt111=QPW
+FileExt112=QSD
+FileExt113=QXP
+FileExt114=RESX
+FileExt115=RFB
+FileExt116=RPT
+FileExt117=RTF
+FileExt118=SCPT
+FileExt119=SDW
+FileExt120=SDY
+FileExt121=SIG
+FileExt122=SIM
+FileExt123=SLK
+FileExt124=SLN
+FileExt125=STD
+FileExt126=SUO
+FileExt127=SXC
+FileExt128=SXD
+FileExt129=SXI
+FileExt130=SXW
+FileExt131=THMX
+FileExt132=TOC
+FileExt133=TXT
+FileExt134=VBP
+FileExt135=VI
+FileExt136=VRD
+FileExt137=VSD
+FileExt138=VSS
+FileExt139=VST
+FileExt140=WCM
+FileExt141=WFA
+FileExt142=WK1
+FileExt143=WK2
+FileExt144=WK3
+FileExt145=WK4
+FileExt146=WP6
+FileExt147=WPD
+FileExt148=WPS
+FileExt149=WPT
+FileExt150=WRI
+FileExt151=WTF
+FileExt152=XLAM
+FileExt153=XLS
+FileExt154=XLSB
+FileExt155=XLSM
+FileExt156=XLSX
+FileExt157=XLT
+FileExt158=XLTM
+FileExt159=XLTX
+FileExt160=XMS
+FileExt161=XPS
+FileExt162=XSL
+FileExt163=ZDP
+FileExt164=XML
+FileExt165=indd
+FileExt166=odg
+FileExt167=odf
+FileExt168=odb
+FileExt169=shw
+FileExt170=wks
+FileExt171=xla
+FileExt173=dsn
+FileExt174=wpg
+FileExt175=accdb
+FileExt178=mdb
+FileExt179=adp
+FileExt180=py
+FileExt181=json
+FileExt182=strings
+FileExt183=TEX
+FileExt184=KEYCHAIN
+FileExt185=SDF
+FileExt186=VCF
+FileExt187=BAT
+FileExt188=ASP
+FileExt189=VB
+FileExt190=PL
+FileExt191=RB
+FileExt192=CSV
+FileExt193=JAVA
+FileExt194=GO
+FileExt195=F
+FileExt196=TX?
+FileExt197=SKETCH
+FileExt198=XD
+FileExt199=IDML
+FileExt200=CDR
+FileExt201=AI
+FileExt202=INDT
+FileExt203=DWS
+FileExt204=DWT
+FileExt205=INF
+FileExt206=INI
+FileExt207=HWP
+FileExt208=HWT
+FileExt209=HWDT
+FileExt210=HML
+FileExt211=HWPX
+FileExt212=HWTX
+FileExt213=DWF
+FileExt214=XMIND
+FileExt215=EMMX
+FileExt216=RP
+FileExt217=STY
+FileExt218=LST
+
+[Email]
+FileExt1=BKL
+FileExt2=BKS
+FileExt3=BMS
+FileExt4=DBX
+FileExt5=DCI
+FileExt6=EDB
+FileExt7=EML
+FileExt8=EMLX
+FileExt9=MAIL
+FileExt10=MBX
+FileExt11=MSG
+FileExt12=NSF
+FileExt13=OEB
+FileExt14=PAB
+FileExt15=PST
+FileExt16=WAB
+FileExt17=IDX
+
+[Photo]
+FileExt1=3DM
+FileExt2=3DMF
+FileExt3=3FR
+FileExt4=ABM
+FileExt5=AFX
+FileExt6=ANI
+FileExt7=ART
+FileExt8=ARW
+FileExt9=BIZ
+FileExt10=BLD
+FileExt11=BLEND
+FileExt12=BMP
+FileExt13=BOO
+FileExt14=BR5
+FileExt15=CAD
+FileExt16=CDR
+FileExt17=CDT
+FileExt18=CGM
+FileExt19=CIFF
+FileExt20=CLP
+FileExt21=CMX
+FileExt22=CONT
+FileExt23=CPT
+FileExt24=CR2
+FileExt25=CRW
+FileExt26=CUR
+FileExt27=CVX
+FileExt28=DCD
+FileExt29=DCF
+FileExt30=DCM
+FileExt31=DCR
+FileExt32=DGN
+FileExt33=DIB
+FileExt34=DNG
+FileExt35=DRW
+FileExt36=DS4
+FileExt37=DSC
+FileExt38=DT2
+FileExt39=DWF
+FileExt40=DWG
+FileExt41=DXF
+FileExt42=EMF
+FileExt43=EMZ
+FileExt44=EPX
+FileExt45=ERF
+FileExt46=EXIF
+FileExt47=FH10
+FileExt48=FH11
+FileExt49=FH7
+FileExt50=FH8
+FileExt51=FH9
+FileExt52=FLC
+FileExt53=FMZ
+FileExt54=FOV
+FileExt55=FPF
+FileExt56=FPX
+FileExt57=FUJI
+FileExt58=FXG
+FileExt59=FZB
+FileExt60=GDB
+FileExt61=GIF
+FileExt62=GMP
+FileExt63=GUE
+FileExt64=HCR
+FileExt65=HDP
+FileExt66=HDR
+FileExt67=HP
+FileExt68=HPG
+FileExt69=HPGL
+FileExt70=HPI
+FileExt71=ICNS
+FileExt72=ICO
+FileExt73=IDML
+FileExt74=IFF
+FileExt75=IMG
+FileExt76=INDD
+FileExt77=INX
+FileExt78=IPX
+FileExt79=ISD
+FileExt80=ITC2
+FileExt81=IV
+FileExt82=JFIF
+FileExt83=JP2
+FileExt84=JPE
+FileExt85=JPEG
+FileExt86=JPG
+FileExt87=JPX
+FileExt88=K25
+FileExt89=KDC
+FileExt90=LBM
+FileExt91=LWO
+FileExt92=LWS
+FileExt93=MA
+FileExt94=MAX
+FileExt95=MB
+FileExt96=MDC
+FileExt97=MDI
+FileExt98=MDL
+FileExt99=MDX
+FileExt100=MEF
+FileExt101=MINO
+FileExt102=MIX
+FileExt103=MNG
+FileExt104=MOS
+FileExt105=MRW
+FileExt106=MSP
+FileExt107=NCR
+FileExt108=NEF
+FileExt109=NRW
+FileExt110=OBJ
+FileExt111=ORF
+FileExt112=PAL
+FileExt113=PAT
+FileExt114=PBM
+FileExt115=PCS
+FileExt116=PCT
+FileExt117=PCX
+FileExt118=PEF
+FileExt119=PGM
+FileExt120=PIC
+FileExt121=PICT
+FileExt122=PICTCLIPPING
+FileExt123=PLT
+FileExt124=PNG
+FileExt125=POD
+FileExt126=PPM
+FileExt127=PSD
+FileExt128=PSP
+FileExt129=PSPIMGE
+FileExt130=PTX
+FileExt131=PXN
+FileExt132=QPT
+FileExt133=QXB
+FileExt134=QXD
+FileExt135=QXL
+FileExt136=RAF
+FileExt137=RAS
+FileExt138=RAW
+FileExt139=RELS
+FileExt140=RGB
+FileExt141=RLE
+FileExt142=RTD
+FileExt143=RW2
+FileExt144=SCT
+FileExt145=SDR
+FileExt146=SDT
+FileExt147=SHP
+FileExt148=SKF
+FileExt149=SKP
+FileExt150=SR2
+FileExt151=SRF
+FileExt152=SRW
+FileExt153=STP
+FileExt154=SVG
+FileExt155=SVGZ
+FileExt156=TCW
+FileExt158=TGA
+FileExt159=THM
+FileExt160=TIF
+FileExt161=TIFF
+FileExt162=UFO
+FileExt163=VWX
+FileExt164=WBC
+FileExt165=WBD
+FileExt166=WBMP
+FileExt167=WBZ
+FileExt168=WEBP
+FileExt169=WMF
+FileExt170=WP
+FileExt171=ai
+FileExt174=clk
+FileExt176=YUV
+FileExt177=DDS
+FileExt178=X3F
+FileExt179=GPR
+FileExt180=FFF
+FileExt181=CR3
+FileExt182=HEIC
+FileExt183=HIF
+FileExt184=AVIF
+FileExt185=SKETCH
+FileExt186=GPD
+FileExt187=SCP
+FileExt188=SCR
+FileExt189=TPL
+FileExt190=APM
+FileExt191=CIT
+FileExt192=GSD
+FileExt193=PSB
+FileExt194=INSP
+
+[InternetWeb]
+FileExt1=ASPX
+FileExt2=CGI
+FileExt3=ELM
+FileExt4=HTM
+FileExt5=HTML
+FileExt6=IGY
+FileExt7=IQY
+FileExt8=JSP
+FileExt9=LDB
+FileExt10=MHT
+FileExt11=MHTML
+FileExt12=PHP
+
+[Miscellaneous]
+FileExt1=ACM
+FileExt2=ACP
+FileExt3=ADT
+FileExt4=AFM
+FileExt5=API
+FileExt6=api
+FileExt7=ASMX
+FileExt8=AW
+FileExt9=AX
+FileExt10=BIN
+FileExt11=BKF
+FileExt12=BRK
+FileExt13=CAL
+FileExt14=CHQ
+FileExt15=CNT
+FileExt16=CNV
+FileExt17=CPL
+FileExt18=CTM
+FileExt19=DICM
+FileExt20=DIT
+FileExt21=DLL
+FileExt23=DRD
+FileExt24=DRF
+FileExt25=DRS
+FileExt26=DRV
+FileExt27=DSG
+FileExt28=DUN
+FileExt29=ECF
+FileExt30=ENC
+FileExt32=FAE
+FileExt33=FLT
+FileExt34=FON
+FileExt35=FP3
+FileExt36=FP7
+FileExt37=GLY
+FileExt38=GMT
+FileExt39=HHC
+FileExt40=HHP
+FileExt41=HLP
+FileExt42=HLX
+FileExt43=HQX
+FileExt44=HRB
+FileExt45=HXI
+FileExt46=HXK
+FileExt47=HXS
+FileExt48=HXW
+FileExt49=ICC
+FileExt50=ICM
+FileExt51=ICS
+FileExt52=IME
+FileExt53=IND
+FileExt54=IPHOTO
+FileExt55=ISU
+FileExt56=ITS
+FileExt57=JPO
+FileExt58=LBL
+FileExt59=LIB
+FileExt60=LNK
+FileExt61=LXA
+FileExt62=MFL
+FileExt63=MMAS
+FileExt64=MMAT
+FileExt65=MMMP
+FileExt66=MSC
+FileExt67=MSM
+FileExt68=MUS
+FileExt69=O2C
+FileExt70=OCX
+FileExt71=OMG
+FileExt72=OPA
+FileExt73=PDB
+FileExt74=PFB
+FileExt75=PIP
+FileExt76=PNF
+FileExt77=POC
+FileExt78=POL
+FileExt79=PPD
+FileExt80=PRJ
+FileExt81=PRT
+FileExt82=PWL
+FileExt83=PYI
+FileExt84=RDF
+FileExt85=REG
+FileExt86=REP
+FileExt87=RGS
+FileExt89=RTM
+FileExt90=SDB
+FileExt91=SFL
+FileExt92=SNK
+FileExt093=SUD
+FileExt094=SYS
+FileExt095=TAX
+FileExt096=TSP
+FileExt097=TTF
+FileExt098=UPP
+FileExt099=USER
+FileExt100=VB
+FileExt101=VMC
+FileExt102=VMDK
+FileExt103=VMG
+FileExt104=VMX
+FileExt105=VSZ
+FileExt106=WDB
+FileExt107=WID
+FileExt108=WIM
+FileExt109=WIZ
+FileExt110=WPL
+FileExt111=XPG
+FileExt112=XPT
+FileExt113=XSN
+FileExt114=XWD
+FileExt115=ZIC
+FileExt116=sys
+FileExt117=lib
+FileExt118=dll
+FileExt119=LDIF
+FileExt120=LY
+FileExt121=EXE
+
+[Video]
+FileExt1=3G2
+FileExt2=3GP
+FileExt3=3GP2
+FileExt4=3GPP
+FileExt5=AMV
+FileExt6=ANM
+FileExt7=ASF
+FileExt8=ASX
+FileExt9=AVI
+FileExt10=AVS
+FileExt11=BIK
+FileExt12=CPI
+FileExt13=CSF
+FileExt14=DIVX
+FileExt15=DMSM
+FileExt16=DREAM
+FileExt17=DVDMEDIA
+FileExt18=DVM
+FileExt19=DVR-MS
+FileExt20=DXR
+FileExt21=EVO
+FileExt22=F4V
+FileExt23=FBR
+FileExt24=FLA
+FileExt25=FLV
+FileExt26=HDMOV
+FileExt27=HDTV
+FileExt28=IVM
+FileExt29=M1V
+FileExt30=M2P
+FileExt31=M2T
+FileExt32=M2TS
+FileExt33=M2V
+FileExt34=M3U
+FileExt35=M4V
+FileExt36=MKV
+FileExt37=MOD
+FileExt38=MOI
+FileExt39=MOV
+FileExt40=MP2V
+FileExt41=MP4
+FileExt42=MPE
+FileExt43=MPEG
+FileExt44=MPEG4
+FileExt45=MPG
+FileExt46=MPV2
+FileExt47=MTS
+FileExt48=MXF
+FileExt49=OGA
+FileExt50=OGM
+FileExt51=OGV
+FileExt52=OGX
+FileExt53=OOG
+FileExt54=PLS
+FileExt55=PMG
+FileExt56=PSH
+FileExt57=PSS
+FileExt58=PVA
+FileExt59=QPL
+FileExt60=QT
+FileExt61=QTM
+FileExt62=RCPROJECT
+FileExt63=RM
+FileExt64=RMVB
+FileExt65=RT
+FileExt66=SCM
+FileExt67=SMI
+FileExt68=SMIL
+FileExt69=SMJPEG
+FileExt70=SRT
+FileExt71=STX
+FileExt72=SWF
+FileExt73=SWI
+FileExt74=TIX
+FileExt75=TOD
+FileExt76=TP
+FileExt77=TPR
+FileExt78=TS
+FileExt79=VOB
+FileExt80=VOD
+FileExt81=VP6
+FileExt82=VRO
+FileExt83=WEBM
+FileExt84=WM
+FileExt85=WMP
+FileExt86=WMV
+FileExt87=WTV
+FileExt88=XLMV
+FileExt89=XVID
+FileExt90=INSV
+FileExt91=ARI
+FileExt92=ARX
+FileExt93=R3D
+FileExt94=BRAW
+
+[Language]
+Index=0
+Default=English(English)
+AllLanguage=English(English)|Japanese(\x65e5\x672c\x8a9e)|French(Fran\xe7\x61is)|German(Deutsch)|Chinese Traditional(\x4e2d\x56fd\x9999\x6e2f)|Chinese Traditional(\x4e2d\x56fd\x53f0\x6e7e)|Portuguese(Portugu\xeas)|Italiano(Italiano)|Spanish(Espa\xf1ol)|Netherland(Nederlands)|Arab(\xa0\x627\x644\x639\x631\x628\x64a\x629\xa0)|Korean(\xd55c\xad6d\xc5b4)|Sweden(Sw\xe9\x64ia)|Indonesia(Indonesia)|Russian(\x440\x443\x441\x441\x43a\x438\x439)|Hindi(\x939\x93f\x928\x94d\x926\x940)|Thai(\xe20\xe32\xe29\xe32\xe44\xe17\xe22)
+
+[REGCHECK]
+CHECKRESULT=0
+CHECKSTRING=You can only use limited features in the trial version. Would you like to upgrade it right now?
+CHECKEMAIL=
+
+[FREECHECK]
+CheckKey=77P68H69Q120G77H81U61M61E
+Key=BCCC
+
+[LOGOPEN]
+LOGISOPEN=-1
+
+[System]
+AutoRegister=1
+
+[AntiPiracy]
+Piracy0=3d3fbf205ef6f427c519109603f8c227
+Piracy1=07be4390aa30bbfc4d2b57257899b6eb
+Piracy2=5473f09581e1f47836cd1489fb45ea7c
+Piracy3=de9141c51698563f395ff3c03a9eca5a
+Piracy4=9a0cd73bf36391ce07d63985fa9360da
+
+[Questionnaire]
+Questionnaire=1
+
+[UserRate]
+recoverRate=3
+unRecoverRate=3
+hasScan=true
+hasComplete=true
+hasRecover=true
+
+[UserFeedback]
+hdnotFound=true
+diskDisconnect=true
+fileScannedOut=true
+filesRecoveryFailed=true
+advancedRepairFailed=true
+creatUSBFailed=true
+drEngineCrash=true
+anitPricacyReport=true
+ratingFeedback=true
+
+[InstallTime]
+InstallTime=1658902985
+
+[drrs]
+port=23007
+
+[drc]
+port=57213
+
+[grpc]
+message_send_size=15728640
+message_receive_size=15728640
+port=57213
+
+[log]
+path=C:/Program Files/Wondershare/Recoverit - Data Recovery (CPC)/log
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ¡AƒeŽíÝ«7Ú¶i+H±ì9…òBœ»rÝ:Ò„Sôeñ1TÃ¦?×ü‰˜;1$VVV˜?o>#ØPY“ÿJB*•bÑÂExgØ;$;ÀÙsgÑ±CÇÒÒµQ˜˜²rÊ„Å®/¸m0zõèUîsÖÖÖèÔ±i.
+r¹×"¯áî½»ˆOˆGBBíbÀÍ    IDATrssñ,ï
+a.5‡µµ5¬¬­P»Vmx{{ÃÛËþþþmôãêâ*¨ìkÑÂEèÖ³›ÎŠe/‰€ÆpuvlC_PvÕ† 
+~þõg²Ófè¥‹%…£ÇŽê\ÿ2¾>¾hÙ¢%Ch´n‡þýúcÏÞ=$;+~XQf @}ÙÑÎ‘x À)÷¾fffX0o#Ø“––†]{váô™Ó¸y­ÂB2QQ¯þ^\]]Ñ>¸=zöì‰°ÎÆi:T~õý0lè0¬ß°^°FƒãçŽcxÿa=cƒFkÚIŠ{÷íÅÓŒ§$Þ^ÞLºØ±fÓæM¤ñ£Gfä	;æÎš‹'N /_x‰+W¯ æN5lTâ÷‰7AT"žÀ)•cçŽ“3¿GŽ‰†2òˆÄ;ÃÞAëv­ñõÒ¯qñÒEÁ*r ðäÉìÚ³ã'ŽGó æørÎ—xðàC¯Ù0óÓ™äŒ÷Ä”DÄ= U„è­†úiª_®ß¸N¶>/R©”7ìHNIÆÙsÂÕAM!ù¯$jÔ¨?ü˜lçzTw£Þ ·äp^#>1’i˜ƒƒ>ùðFÑÑh4Ø¾c;BÃB1aòD\ˆÐKi[NNÖýµºtÂ”éSË|¡8::2Ér>qŠœÈÆÊ1¾!® R’SHã{vï‰Î!yÃŽÍ[6“ÞGoõyË$’ÿJbÌ{cÈ×{ÉÉÉŒ¼yâ{°ˆ œ¹pMx²Øs>ùè£H¬–Ä­Û·Ðo`?|ðñ¸ß sªÕjìÙ»]{tÅÜð¹¤£D–Œywø•4X™Ù™ˆM0À ig,—ËzR2ÔEîÎ½;¤S*} R©È½L%ù¯$²s²‘þ8d£¬¿;5ˆ&Ž—ó €óŸ>FJm·Rß·>F4þ½žB¡@ø‚pôìÓ“Üo](*•
+«×¬FhX¨N2¡úB"‘`ö—³Év®š€,ôË˜K…ç]dçd3ô¤d<==Iã±fÝ6Î0âïãW©ä¿³xÉbäåÑwêß½,ˆ›
+~ÀyâÑ? Ì›3Ïèå{SbÐ;ƒ°jõ*“P±{ôè†‚ÅK“%•©„†„’ëÈ¦§’Ô÷XC
+ ²õ 8˜|Õ°|År’Ô.k¨É£FŽ2X	¦®ÜŒ¾‰;wlØÛÛ#´Sh©ß×?—rrr)Ãóy Ày‡ÊW°*‹®a]Ò)„3¹rõ
+ºõìf´]ihµZüôËO;~,
++ª3oö<Ò±¹F£AZzChP~C Pßù²||³ì6IMK­’É@ñûtÖœYô$èá#aeeÅÈ«×ÉÎÎ¢Oç ç5žåÓ4Êý¦>~â8††Ü\Rt¬WŽŸ8ŽÁC#+‹ô&áîîN>~¥¾VXB)½4Ä	  Ì=—|2¶uûVDÝ0¾,ó†MH'Y}z÷1¨³.ìÜµ“¼ypvvÆ´)ÓÊ|†šE žð €ó¡ ˜<u2f|8Ožþ¨òø‰ã7aœA’º¨DEEaø¨áFI<wþºõìFR •‘¯2^ÆÔ¯ €âÜ˜Q#F‘lh4ÌŸkÔ*•J…­ÛªfòŸL&Ãâ¥‹Év>ÿôsØÛ—Ý­zÂ“›CÎ ÎëP{TkµZìØµ:uÀO¿üd°ÌåÈë‘˜<u29€1$Ñ·¢1fÜd¾ûñ÷1êÝQ:b(îÅÞ#Û›”ˆ…¹ðÆ8EEE(((`èMé|úñ§äê˜k‘×°gM¥ŽÂ±ÇHÉ>Þ>&ÛÕóÇ•?’~6 hÒ¸	†¾3´Üç¨A\v6 8ŒqvbÓ=_–ÅK#´k(Nœ<ÁÄfi$§$cä»#ö!Î’‹—.â³™Ÿéu™L†ð…áèÒ­Nž>ÉÌ.«×
+ÌÌÌ`e)ü¾5))‰¡7¥ÃJã«Å_íõ¾iSÕLþKJNÒ¡•oéÌŸ7¿Ä¦]ÿ†*^ET–ä çuXë¼'&&bô˜Ñ˜7ž^Ž-U*¦NŸjÒwþå±c×lÞºY/¶ÐµgW¬úcÓÓ‘H„êÕL'   ;[;ÁczR6#GŒ,U¶¢¤§§cåÏ+yTqRÓRqæÜÁã-,,0xà`†±cþÂùäÓ¸~}û¡Më6å>§…–üyø ‘T±õ˜ œ×¨ïí§»üù–|³„¹Ý¯¾þ
+×"¯1·khfÏÍ\5033ïG/»[Úî¤·>°·+ûÎµ,âããzR6fffX´pyüËo¿ 11‘Sdã¦¤ä¿·z¿e’Éç#ÎãèßGI6,--ñåÌ/+ô¬FM»ÿ/**Â£ôGü€ó:®Î.¨éZS/¶úå'Ü¸yƒ™½›Ñ7ñçš?™Ù3&r¹3¿œÉô”$|A8="}H”J³†Íôb—éàáN   UP+ôêY~—Ì²P(X¼„ž°VQX(ÿ6œ‘7ìP©T˜·`ÙÎÔÿL­p§Fj`RrÕF<ïÈ)‘­ÚcûšFIhµZüüëÏøíçßÈ¶4¾˜õsQ‰D/÷zp¯íg8ØÙÃ\jµZ"E²r²öø’ð$ƒm¥Ãå+—±s÷N&G¤iiizKsvrFC_Ójò ö¶ÂO   @øœpœ<u’¤	qððAœ9{Æ ­´Ÿ8ŽôtáÒ¸>Þ>hÔŠ¡GlXû×ZÜ½{—dÃÍÍM§NÔ€Úñ6€t pJÄ·ž/ü¼ëã^<{½÷S§OA£Ñ«öìÛÃ´ÚÆÚíZ£iÃ¦ef”»VwEŸèÜ.O3ŸâÂ?ÃlçþõÒ¯Ñ·O_rKá'OèM±Gh
+%9Ê	@|‚á® žãææ†‰ã'âû¿'Ù	_ŽcGŽé]}sãæ¤ñ#GŒ4¹ä¿œœòï(ætý¡¾7‰÷ÿ1 ïÈ)ƒž¡=õ’å-“Éöˆ¦ §Ñh°ò'6	PfffèÐº&ž„–þ-u*'sqvA¿î}1vÈxÔvgâOzz:¹ÆÐß‚Ö©MGf?+klmlÍÉÉ1J"é´)Ó*|l\±q±Ø°i#J&--gÎ
+Oþ3777ºHXI|ýÍ×d!×9âÉe"- ¸ð €SÖVÖÞíÙ'ì¨U´ÿÑcG™Ô±ÛXÛ`äÀèÐª=IH¦†K0mËÏþ­?ÿú39c_zm[´A» vÌí²âaMÆÚP‚@/cii‰/>ÿ‚lç›eßèUYrãfzòŸ©t}Îí˜ÛØ¼…V}#4¡S£¢ Ü¼MÎO 8åcgk‡±CÇ ¡­}ìËˆÅbÔ¬IK2Ü°‘¾ÛqqvÁØ!cP»fm²- ¸,®s»P¼Ö‡|Ì™œ’LÒY€:uh»Ê—±0·@¿îý\zcSàö½Û¤ñ6¶6Œ<ÑþýúW¨t¬,rssñÝŠïyô**•
+[¶m!Ù0Åä¿yóç‘sˆF¡sI§F£Â¯3³²”Lªìá §bXZXb@Ïèß½)Éê9Þ^Þ°°®Úöøñcœ;Žäƒµ†¼õéÎ¸4š6lÊd¡Ü¹{'i<µÎü9~Þ~xø84®ÏÆž¾HMOEv®ð|5àR­†.TT<¦,Öo\;wî0òèœ8y‚œü×ºUk†ÑÙ`?Y
+ÛÁÁŸ~ô©Îã¨' Q7®SsŽø G7Õo„‰£& 48”t\@òcï¾½¤¨]b&ÁàÞƒH5ãåÑ&°5¹LîÈÑ#Éd‚Çû7ó'D8;9chß!Ôk ìÛ1ÔÝŸ^}y"Œ&›`ÈÛCH6Ôj5“r¶CNþnZÉr¹‹¾^D¶óÉGŸºÖP¯ç"£HŠr ¤ < àèˆT"EÛmHÇæM›4%ùpúìiÒø6­™û—E÷NÝHIir¹—¯^<ÞÁÁuëÔ<¾KûÎðòð<ÞÈ
+dHLI$Ù0…#êÏ?+¿LyD\ˆÀ¡#‡yTœüwúÌiÁãÍÍÍ1pÀ@fþ°à§_~BÊÃ’ú¾õ1zähAcÕÄÀk´N…çâû pAiëãí#x¬R©ÄÕ®
+omeÖ†9Š”J¥èÐª=ÉFDDi¼···à±yùù¤¹ILl©¬ª]p;4ðc—ç"”êÎÕñáôÉvÂç‡“´^fÓ–M´¶¿½úÀÙÙt$£=z„_ÿ•lgÞœy‚Ê.µZ-é@^$GÌÁã¼¸?å Gy2á-lëÕ«'xìÍè›¤(Á-ƒI]ãtÅ¿‘?ª9
+Ï|¦ÞQzÕ¾ƒ§ü‰F£Á8Ú½÷»£Þeä±cÆÂ¯>MŽ;5-«þ 7µQ«ÕØ¶}É†)œ¬¼Ìü¯æ“›(õèÞ!B¥Þÿ_‹¼¥RI1Á€Rà¿
+ P(·ø‹Åp«å&xnJéŸÄL‚fi×º"‹I¹ q÷ãHÉ>uë
+¿ÈË¯Àƒä((þîêêŠîÝº3ôˆ†D"ÁœYsÈvVþ²’¬kpâä	¤¦¥
+ïíåM®n`ÉÍè›8pð É†¹¹9æÎš+x¼JM»ÿ?qŠÔYµ À‹Æ)|Á¤ zXÀôÄÍMY¡ðÄ´jNÕHje”†-îuÜaia)x¼Pü¼ë[PP@Òò¯^½ºà±²ágCrëÞ-ÒøÑ#Gë]AOWBCBÖ%ŒdC&“‘K÷ªZòßê?W“;'ŽŸÁãÕJá€V«Å©3§p	À‹ÝÛ› ˆ ´ð3€4 ŒÄ›ûûÐ	%áþªº‹ð	 “uw3Žz³“3l¬…×—S$?«;ÿ}«T¤cFƒ›G…H‰Ã†cè;Ì[@–ƒ¦”Ë>zô§N_l¤R)4-å¿³çiÚ®.®˜òŸ)‚Çk5ZR>Å­˜ÛHüXðx¼tü¼yž?€¥ Qü‹˜€¶"½¨÷OÔº{Ê‘¦a1¤âRMøÜ¹Ï„ÿÌ”ß7%Ð3·îÒvÿ=º÷ ‹RéŒ3Žd#%Ex¦ûæ­›I‹Uï^½M*ù¯¨¨OžÐšwÍž5›ôžR©T èÿàÔé“ÂóJô& î f øÞ#
+ÀgÿýG JÂuGC©‹×‡èO…ç&hÈò…ÿÌÁ%ê]¥¾Q*•ˆKˆ#Ùxoô{lœÑ3¦Ï€«‹«Qæ>xø iüÈá#yÂ­VKºŽlˆýiåŒJíTíØÉã”á9(.|AU j˜à"€$ ßÔç„•å¾”êJ H%RÒÜ(ÂI”×–¹…ðyõÑK€%±	±P(…%£€_}?´mÓ–¡Gì±³µÃÌÏf
+/´â&_–OjkjÉ@qÏ¡	Èb±Ã’ó(å	p?þ>eúƒxéþ¨Z€=€÷ üà!€ ì¨¬÷¥¬‹…Ë•RÊ‚FÕü¦@ù¹)»xJ¹±]³¾¡*ÿ™úîÿ9o~[°zf—Ð.‚Æåää÷œÃG˜Tòßsºtöû üž£RªH	ˆ;ˆÒà ^3`Úïðò£8™ï7'ó­Ð€Á•#»ÜXH	ÓBËŸCQÖ£”ŠQ¡ÌMù™‹ŠŠ•ñÄ¤<RÓS‘•#¼ó­-ÀÐ#ýñ|÷©kŸ WWôïß_ÐœNŽN‚ÆÅÉƒ<^ŸŒywŒÎvv´S˜ç(	Ÿ}J¥{÷ï¥L_€âÍñ+TÖ  €pü/™o ã´ñú/oR  1 PÕÉ(÷ø™„ƒ
+e±¢t¨£ü¾M­4îe¨»ÿÁƒ5'DW›â“?©ðób±‹-ü3ÚØØ¾>èÕ³—I%ÿ½L}ßúø`ú~^$á‡å?ó0´ÐBE(ÿ;vâ²²IŸ_‡¼v—XÙ€V 6¢xáŸ@¸Ê	G0”…!#3ƒ4·[má"B©éÂM(ÊI EÏ?33SðXcæL”E¾,Ÿ¬û?jä(6Î©S¦V¨*@"‘`Éâ%èÙ½'i¾þ}…Œywi^}óÁô0~ÜørŸ“J¥X´`‘(•‚vü¿}×vª»Kúbe	 º£x§Àp ´L2	+K+Ác322HoJÉHzñB‰OŠü3K$xzx
+ž;#CxÀeeiš§Z×o]'ýÛ¶ikºÿº"‹± |Vÿ¾ºÄ†Zb±C;cßî}1ly¾	ïOÐy'Ö%A-ƒÈsë‘H„ð¹áX÷ç:6=7\,£SÇNØ³cÞÍF"ZQ$üø?9%—¯^¡L¯Pbw(Ó=ã+ëyÀl ¦ýŠzÃ°¶²†™™™ ¤:…BŒÌÁ}×)Ímd2Ä'ÅÃ·ž¯`Bˆ¾#¼V½nÝºJ…ïÄÓïánkczGä×oG‘lT–ä¿ÒèÑ½ztï{±÷‡ÌÌLÔªUM7››ð²cooß~þÃF«P2©§§'–}³ŒÙüú&¬KÂº„!î~bcc‘‘‘Zµj¡qãÆ¨íÆ®[¨F­!eÿoÙ¾…ª^¸@vIß0Õ  À2 ¦]£ócgc‡œgÂ2… ‹Å‚w€g/Ÿƒ§Á2”SÓSñ E¸’_Ë-IóÇ'—N6Å;ò{	±È—	ïRèêêŠÝ{0ôÈxøÕ÷#7*¶mÚbë¦­˜4eR™":­‚Zá×Ÿ~ü¾6&¾>¾ðõÑß¦@¡žˆ›““ƒm;iÍ˜ ”ÚúÐÔ® ¼lG±X_üM;[á™é			‚Ç:::¢q£Æ‚Ç?~ú˜Ü9NNœ§)wµ¦µ~ð@xðaG¨>Ð‘7¯•ÿPŒ1Ê¤“M‘Ö­Z#âLæÎž‹Àæ°üïÕºtî‚ßý»¶ïB5Œì©	¢”EÂKq×mXGÒ> Ô!Sy'H|„âÌ~Ó¼xä¼àñÓÇÈ#ìÂˆ½¬Ñ¾]{DßŠ<þÔ…Ó¨ç^”ËPnÄÜÀÃG‰DhÜNðx…B¸ûÂ•ò’&ÁÛÃ›tÁ’Œ¬L$¥&/‘H0|¨iµ¦­,X[[câø‰˜8~"€b]H•R©||Ÿ—Ÿ‡[7Q]ø@©Ç¥¦pÐÀ- KÀ“¦P^ˆcgáÏ­k“+\($êí÷­>o‘ÆçæåbÇÁzJ’Ž£g^+»Õ‰ –A¨U«–àñ111$! kÑ‘øeý¯¸~+ŠÜA×¢i»SÖý¯lðÅ¿b(äÂ“ÿÖo\¼<RKî" •õ€1 +/úÇ ï—Ê3Ùé˜"1qwðË_¿âêÈ‹Áí˜Û¤,nÿfþ¨ïK{É¤¤¥àè™£zYØrrs°uÿ6²êáÀ4ÝñèÛÂOIž“/ËÇáS‡±yïäå“>ŒH(”
+rãŸÊžüÇ©\(•JÁ›ŒÂÂBl ¶b°ÀÓ²0V  ÀçFô `mïˆ6ƒGbÊº=¨í'ün¹ª¢ÕjqðÄAì9²ò"9›………HOž CÞBö#êöì8¸“¬Nø2I©ÉX»}-¹7„µµ5úöéK²‘ð@x®Å¿ILIÄ›Wã±þ^(·îÞB!™ª¾o}“Ó¦çTmrá¯×uÿBvN‰‰ûºð[ycñ€â$?£âJ-,Ñ¬koŒùa–^OÆ˜×¢Y×>€	jW›ƒ'áFÌMæv)GÓ@±Ö¸ƒƒÙ¸qX·}ÒŸÒFƒK‘—±yÏfÕ6?µóØ¿)”bÇ¤¼¡\‹Ž$wô»&©MÏ©š¨U*¨UÂvÿéÓ±êÏUT.ˆ(ï!C^äØø }ë& ±™ê¶FÛ·G!¨ßXÚ³¾)\øçnÞa¿ø›™™‘3†ílí0ö½±XñÃ
+²?O³2ðç–5hèÓ !Á!prÐM=îANœ?IRû{sssL?‰l‡’?PJ•ÛöoÇøáï¬L095O3Ë<É,8ˆ¡GNÙÈ…Ÿ–~»b
+
+È}KæWä!C õ  ÐÈ@ó(Î¢ö
+FPÿ¡hÙ÷mØV«nÈé+5Y9Y8¥Ü RÍš¿(%¢0~Üxüµá/’ÜíËÜ¹÷báåî…>~pws‡£ƒãkÏ©Õj<zò	ÉpûÞmdç’ê^aì{c™$«·	fàÍëÈ‹ä8vöö¢å(Têî¿²éþs*7*¥Rðî?2*‡¦ºpÀÑŠ<hˆ  Š•ˆV$êXÃ­D‡ãàâ)\9îMæô…ÓP©õÓž•»ƒƒf1~ò!{@ñQþýÄû¸ŸXÜwÛ\j;{H$Rh¡Eaa!žå?Ó[V|­Zµðál~ž€€ 4kÚ7£ÙŸâÜ¿‡‡¢N­:Ìm¿L¾,÷âï‘lŒ1š‘7NùÈ…Ýý«5j,\¼ÅgË\ 2¢ï  /€Í ¬õ<$Rs4ëÖí†ŽA£nëØ:“ó?
+
+÷ß5mÛ´ÅÀþìvŽo~[·oÅ¥Ë—˜Ù|…R§Y´Fº0î|Rûß—‰DøjÁWøö@rEBIDÝ¾¡÷ àúí(ºîƒÊ§ûÏ©œ(
+hfþoÛ±wciÁ.Š“ë+|„ Ï$À¡ v@Ï‹¿…-:›†¯.ÅbâªmhÒ¥'_ü‰Ü½G/5ò4À¯?ÿ
+±˜ÝËN$áÿ¾ÿ?T«V™Mc1lÈ0ôîÕ›©Í-ðÝ7ßéÜK¾"Ü½W¯Z
+QDÝÿÑ#ùîŸc´Z-ŠÞý§?NÇ÷+`áÆ<Tp÷è/ `Šþô‚³ú}6Kþy€!WÀIÏ;‘7‰GO1µ'‰0lÈ0ìÝµÕÙça¸¹¹á‡å?Tê,o¿ú~X8¡^l4;¶îÜß½4J2³Ùä_”Dìƒ8’ö€««+zõìÅÐ#§tò"h5ºßkµZ|9wž={Fuá€ƒºÐG 0
+À* zÙ†[ÚÙcà¬ÅX|%½>˜k3¶9åó4“Ý‘·3ìÙ¹Ë¾YÆìh»$:‡vÆgŸ|¦7ûúÄ¥ºÖü±VVú“&nÔ
+§ŸÆüyóagÇ.!.C×#×ˆºÿ#‡äŠuƒ QkP$°îý¦õ¸xù"7>»€} ÐÀŸ(nåË‘XŒ6ƒGbá¹tŸòÌ­ôžVðÆR(§×±×¨QK¿^Š{;ÚU”éS§cüûã2+lml±~Ýzxxxè}.‰D‚÷Ç¾‹ç.bÜ˜qL®X‰Cý›Œ¬L$=L<žëþs‰\ öGüƒ¬øñ{.lpZ×A,€N(–drûµÁìc×0æÇµ°wåZÞúFJÜ5M?çOŸÇÈá#™Þ÷W„¹³æbäð‘S(vvvX·fš6ijÐyœœ° |î;ˆ~´9}í°#‰ºÿÝ»u×‹‡óo”EJ¨”º'ÙªT*|1{&‹ :€ ãOVï^/·ñµ`d  µ´Â[ÏA·ÉŸ@dà…äMÆÒ‚V£oeikkãœÐˆÅb,ýz)ÜÝÝ±xÉb£øP\]\±á¯¤ÖÆT¼êy‘š:ô×JI(”
+Duÿßõ.#o8œÒÑh5‚wÿ+]‰èÛ´×ùY UÈ@«ª€C \ØzW‹Ö˜süºOùŒ/þÆ­fmÒø_ÿÉ)ÂÛ¶²`Êä)X±l…^ïÕ…€ý{÷uñ€•?¯$÷dp«áÆÈ›ÿqûÞm’î¿¯/‚ÛêG‰Ãy™"™\PÝ~l\,V¯ý“…w. ®¬" ëøíüÏ XŒ¾Ÿ†ãÓÝgPÃË$š¾q¸×®K_TT„¯ÅÈá¼óö;8rðˆÉÔ‹D"Œ3{vìAÚÆ­ZINIÆo«ÊíR&Õ«é%±“ëþs*J…BpO“Õëþd¥Íñ! ÁÝÌ¨ÀL Ì
+—-ll1éíèýálˆyö®Ñðr÷‚=±WÂÁCqöÜYF	ÇÇÛ÷ÄG|¦7T:áåå…mÄ‚ðš@Ûé…_-DQ‘ð]6 4ögäÍÿHIKÁ“Œ'‚ÇÛØØ`ðÀÁ=âp^G«Ñ@^ ìî^«Õâä©“,ÜØ
+àÅ % è `eò—©î^3÷G  G?V&9‹Åò"Û	_®:]±´´ÄÇ~Œ“ŸD¯½š˜èììŒ¹³çâÔ±SèÔ±“Áæ-‹/àÐ‘C$æææhÀÈ£ÿAÝý0i™#‡Sù‚%{?yŒ|Y>Õ…T S¨F„~ÚXFI„ÞAÁøâÐE¸50î(ç´h;Z;Ú{±÷°yËfFÑñôôÄªßVáøÑãØ ^wânnnŸŽKç/aâø‰&S®V«1wþ\²6m˜' Ê
+ddÝÿwGòä?Ž~‘’0¨gjŒ@Vá ¬@q‡?2ÞAÁ˜¾ñ ïÔgbH$„‡í,ùv	²³ÙvË£âWßÿ÷ÃÿáúÕëX´pZ¶`r*`gg‡ÁƒcËÆ-¸qãßo´jˆÒØ°qîÜ¹C²aokÖÍ[1òèDÝŽ"}8¶nò§  ßIDATÕ6dè‡ó*J¥
+¹à+w Å§‚ÄÁÿA½ÿ²âE7Ký’y¾ø[òV&Iãúp=:Éi)‚määäà‡ÿûásÃÙ9Æ'''¼7ú=¼7ú=äääàâå‹¸xñ"îÞ»‹ø„ø23ä¥R)êyÖƒ·üýýÑ>¸=š6mªÍ}VäææbÙŠed;]:tTÂöôD£Ñàú-šî?/ýãèZ¹Œ.’fia‰fMš!2JÐuWŠsï˜ k `àG{·lËÿJ@X‡0¬Ù¶–Ô¢rÍº51||}|Ë}V«Õ"3+æ½ËuttDÏî=Ñ³{Ï_+,,DfV&d2är9D"ìíìamcçjÎF]ì•J%ž={+«Šk.|·â;dee‘æuw«‹†>ì«*âÜÇ³|áZè®.\÷Ÿ£?´Z-
+dÂïýÿÍ°!C… 
+ #Ð£ÿ¢k ð”üÕðª©öóÅ¿PÓµ&š5l†17ÛP©T_Žm,õ™ÓgNcÍº5ˆ¸Âÿ
+k8;;#¬K&¼?¬X'+++£—ë½ŒZ­ÆŽ;°yëfDÝˆzQ‚ä^×½{õÆøqãQ£FÇÆÆÅbÝúu¤ùE"ºvìJ²Q×ˆÊÃ†3‰ê
+NÕ¤PV Zx[êÓ«{/ìØµ—¯^ÖeØ ×™9Ýr jø”:¡¥­&­Þk{Gª)ŽiÛ	æ´ºÓgNãø‰ã¯}ýîÝ»2|FŒã'Ž¿Xü 33[·mE·žÝ°â‡Ì¢ïÊHjZ*úôëƒ>ýWÿ¹úJýqrJ2~ùí´ëÔË¿_þÊïð9,*2û£†KÉ…ÌìL$¦$
+/‘H0jÄ(vq8/QXP(Hê·,Äb1¾[úø5¨è‡ÚJ ß0uº ³2šDb1Æý´n~(f8ÆÆÚí‚Ú‘íÌ?
+EqMNNæ†ÏE÷ÞÝq>â|™ãÔj5–-_†‰ÿ™H®]¯ŒÜ½{ýöÃÍè›e>WXXˆïV|‡ö!í±cçŽÓÑ¿âÌÙ3$,Ì-Ð±uG’Òˆ$–þuëÆuÿ9z¡¨Pe-é¯4ª;;k¿_þýÛ(^ÜKË~}`,€iúð¡¢W õ ¼OlÀ—‹Ð¬+3Ý Ž	òo‰¨ÛQÈÊ~‡œ””„ßVýKKK¬øarssuðÐAäååá÷_‡Ýr}töÜYL˜4yùy“žžŽÍÀúë1ë‹YX¸x!Ù­ÛÃÆÚ†lçß(•JÜ¼M²ñîhžüÇa¢H!¸ÅoE0³¼ß£w vøÀ  MQ\fŸà€ý ôÓroÛ» é]æŒOwŸ6i]ÿEÝƒ-ìŠeì1¨YÅ;ÞO¼mû·ÛÔ«W«_¿úÌ¨M’›6`ÖœYFSrvrÆøáïëE@éú­ë8|J¸˜™¯/N?Å¥9LQ*(dñ_"‘Rsó½z/×Ë:P‘wt} #(“˜[Yã½þ4éÅŸS>>ž>ðr÷2¶xðàúöï‹½ûöÛ½ðìÙ3Lš2	Ÿñ¹Ñ ëÐEoê‰,”ÿøâÏa‰J¡,ó[Ì$’pSXüŠ]Ì¯às¥2pÖb¸zúPLpL„®Ã°jÓÐhØeÄ
+!_–ÿLû9„¥‹—ÂÑ±j$•þsíLÿ`:’’“Œí
+€â ÏÛÃ[/¶SÒ’tÿ`é·K±ôÛ¥  888ÀÑÁ–––/þmii	KËÿ_Ös/¾îà@SÂäT>”J%ä…zK8–XHçû6ô¯ã(oawCñ½„`|[·GÈ{ÿ¡˜à˜ÎNÎhÙ¬®D]5¶+ €àÊÕ+˜5sª¼M`ž={†eË—aÍº5F®žcff†.í;ëÍ~$±ôïßáÉ“'xò„T¼ÌóàÀÊÒªÔ@áù×Ë
+6ž
+GO(ú[üE"‘V*5ÿÂ»¡÷RæÆ	”÷Jœ@pq­H$ÂÀÙKùÑ£}«ö¸uï
+J(73Ož<ÁŒf`ï¾½˜=kv¥ÊP©TØ¶c–~³™ÆvçZ6kg'g½Ø–Èp—¨ûož,±³µƒ••¬¬¬Šƒ++ØXÛ V­ZhÕªzõèerÒUe‘…z»ó×š›[LôjèµJ/(+ ‚(ùÛ²ï;ðjÑšb‚c‚XZX¢c›N8BHÞÒ'OŸÄ™sg0xÐ`|8ãCÔ­S×Ø.•ŠF£Áá£‡ñÍ·ßà~ü}c»ó6VÖhßª½ÞìGÝ¾Á¢)J¥$/?¯ÔªŽ›7"|A8¾øü:œç7€"yŠ
+õsç/‹Ti_/?/&Úý¬)kk>@m¡†Í¤RôýÜd®:8ŒiÞ8 ®Õ]íÆk¨ÕjlÝ¶í;µÇ´Ós'ÆØ.½‚B¡À–m[Š	“&˜äâ ˆ?•ÅíØÛz³]ÙÉÎÎÆg3?ÃÐC‘òPxN9h‹E~ôµø›‰Í
+¥â`?“\ü²O H÷GMä‰U˜ç²°w•.ïkLT*víÙ…]{v¡E`6oõ~66ìkÙ+Â½Ø{Ø¼u3vìÜarÝÿM—ðoä¯7ûÏòŸ!#Ë´®;L‘óçÖ-³¾˜…Q#GñÓ †h¡E¡¬ B
+wîÞÁÍ[ÑÉòaooÆ£q£ÒÛ×›™™¥Š­Ì½}|ØÞ1¦´ À€`Ù/±D‚îÿùXèpN%Á£¶;ø4ÀÝûwíJ™\‹¼†k‘×0kÎ,„t
+Aï^½Ñ£[½ß³Þ¿½ûöâà¡ƒ¸kú÷ÝÏéÖ±«^]DÞtòeùøbö8pè –}³îuÝíR¥G£Ö @V M9WPZ­GŽÅO¿¬Düƒ„×¾ïUÏÍø]B^M”•J¥Þ|:‰D"“¿ã*í
+àmŠÑÀ^àäfº÷¯vti×¹Òd5Ëår9zÓfLC`P ~\ù£^êìãâ1|ÔptêÜ	Ë¿_^©ÿFõ¡®žß»orO¡D\ˆ@X÷0ü¶ê·Wú@ptC¥TA–—_îâ;æ6F…>û¨ÄÅ $`êS±lÅ2hµZˆÄ"­ÔJúOcßö•añJ H¥¡c§R†s*ökßÅØnèL^~–~»#ß	¹œÝàùˆóèÕ§Y{ßØÙÚ¡[ÇnzŸ§zµêzŸ£*"“É°à«h×±Ý+½8@[¬ë_ “•ù{ËÉÉÁâocÈÈ¡¸v½b"U«×ý‰uÖ)Dfâ®>~¾Ÿ°rÙ” xh.Ô`Ý&ðiEoÃ©<6„Ÿwå)½{™sçÏáãÏØ\W%&&âý	ï#_–ÏÄž!‹ÅèÛ­/¬­¬ô>—¥…%jÕàÍ{„’š–ŠÍÀà!ƒqã¦ð6Ýo
+­2Y±®)k¿R©ÄŸëÖ [ŸîX¿iÔÝ6ðK¿ûFë×Ø/–»¥¤ `*Þ#à5BÇpÑŸ7‘þÝû1	\œ]PÍ±*Îž½{pîü9²¹óçü~ÛÇÓR‰`© €T"ÅàÞƒàQÛp÷Ëm[´5Ø\U•K—/¡O¿>˜ñá$%™†r¤©¡Rª {–_j²ŸB¡À–í[Ñ³_/|»â[Êû×À¡ƒ…Y	_[ ŽcsŒ^ñ¤–4¯ŒÄ¹«û$]ÐØæMšÃÖÆ–±G•±XŒ†> V«ö8MçãI+K+tiß½:÷„cäËdxœñXOÞ¾Î³¼gèß·¿àñIÉI˜3oCÊÆÊÒ
+ý»÷GÇ6Ð´aÈ
+
+ð4ó©Îvª9VÃ ^áY×“½“eP½Zudfgâ)¯ ¡Õjs'kÿZ‹¸ûqððð€««é•ç- /,„¼P^â®_.—cÓÖÍøèóqðHq—QØø…!Cñïì­j Z	5Ö8¤¬í«†&;GwD"BƒCÑÄ¯	NFœBBrB¹€•5›"( –ÿÍÅæèÖõÜ=qäÔQ)ô×’ó9.\€F£Üô&âB„ÁîdÝk»£_·¾/Z"ÛÛÚ£_÷¾òo‰‹‘›W®/ÖVÖhéßm[Cbfœ$ÎÞa½¡T©÷ Î(óW%Ôj5öîÛ‹½ûö"¤S¦Lž‚à¶ÁÆvË(¨”*È
+K”ÔÎ—åcË¶-X»~-2³„·6/OÖõÍ¿ßùP±%Òâ­Ê«ÅÎa‡‹³†ô}yùyˆ‰‹Á£'éÈÌÎ|±ÛZÛ¢–k-Ôq«ƒúõ|afVÒAÐ¸~cÔ©YGÎE|b¼^}Î—å#;;ÎÎÂ¤oSSS{ô:æææèÔ¦#Z6kYb™ž[M7ê5Ù¹Ùˆ{p©âIæÓ÷™vpvr†—»|<½õÖá¯¢H%R¼Ýg0¢nGáRäedå0ÿ@~#9}æ4NŸ9€€ ¼7ê=ôîÕûÖj5Ê¡,z½JâfôMlß½‡ŽBAA¾\¨tš÷ÿ B„’ZX¢Y×>4o8U
+;[;´nN“‚v°wÀ·ÞAÜƒ8=ý7žå?cäÝëÈ‹„Wé÷”ÂÇÓ=BºÃÞÎ¾ÜgœÐ* Ò«O¬h ÿFþxšùO³2—Ÿ•Z¥RyQ”*%TJ%ŠEP(•Pª”É¡P( R«L¢e²)…¢>Àì¹³Ñ§w2A-+ÇkB´Z-”
+%Š
+å¯œ|åååaßÁ}Ø¾k‡¡Jqb–0 vì+{Þ>“£|ëùÂ½¶;Î]>kÑ×Þyg'g„‡¢¾—¯±]Ñ+"‘®Õ]+,/•ûªšb‘¢*•
+*µ
+
+…J•j•
+•J¥*•
+J•ò• áùsÅÁ†¹Ïr¡P*ôñã•çÇÞ[¶m——†¼=oõ~ÆvŒZ¥†¼ ðÅçL&ÃÙˆs8qêNœ<A
+êpÈ“±àå  €&B5èPùjÁ9•s„uè‚VÍƒq57bnšLë\ÖØÙÚ¡}P{ø7jfô£úÊ€…¹¹wÁ©ˆS¸'°C¡÷¾p®ãe‘Jy!
+r³!ËÉ†ªH…\Ž‚Ül(år>Ë1jý~BB¾^ú5¾^ú5<Ü=Ö%]Ãº¢Më6JiÕ$†D­V£H^•B‰ìœlœ=wGŽÅ…K P%ˆ“£’% ¯ ¤û¿à²3NE°·µGÏÐžòBÄÕ¸sÿN•	ìíìÑ* ›67ZrGwzôCðwË}N£VCžÿE²|æåaÿwóy`§<|¤ä$¬^³«×¬†½½=B:… c‡ŽhÐõ}ë›dà©Ñhð(5Wþ¹ŠÈë×ðOä5Üº}ËÞÿs TºZÌ—?a_Ù8VCí‚8AT¯Výº÷EX‡.ˆŒŽÄ?7¯¡P®ŸžÞú¦¦kMù·DãúMòƒ—Ã±™¬œ`íà' ßŠÈ;±éËiÈË0^ß˜gÏžaßþ}Ø·€â¨€€ 6D`ó@4kÖ®.†//ÌËÏC||<nÇÜÆ•+—q-2Mîªý ËŒí„^ „©Ü	"þ¡Å16Ö6èÐºÚ¶ÁÏýYÌØ.éDpË`„´ídl78F"°Ï Ôî„>Ã¥íëMBâ7/?çÎŸ{E ËÎÖžžžðôôD=Ïzðô(þggg8::ÂÑÁQç¾ yyyÈÈÈ@Vv²²²ò0q÷ãûñ÷ñø±á´@`€ÝÆvD(/ÿµš	5âÌ?¼8ÆG*•–ZRXºtë"x÷Mé'`YI…³8ì°­Vï}ÿ'Ú‹Í_NEê[Ævé5òòó}+Ñ·¢K}ÆÆÆŽŽppp(5P(ÈÊ*^ð+iG!€o, ·šBCðü/ä ¶P#ž‚µƒ8“‘‡#ßÖí1ûè?8µögú~1ò+™R¢L&ƒL&Cjšþu1ŒÄ Ÿ Þ÷—ÄóíŽàæ?"±n~¹ÃáÐ	oca4Jõá¼¹ˆ%ty:_¾³Ã²Ú½s@ o£Š,þÀÿ€¦B¸xxÃâÖÀç˜VèfÇ«ª¯ÒÆÑ[tŸò¾Š¸‹Ð±S!‘šÛ¥7‘{ F£¸Dþ¨‘}aÎó ÀG¨ºMü¹ÂáÐ±µ®|Áè›ÜDŠS>vÕ]1ô«ï±ðÂ]t9bBž§ÂÄ xÅÿz URyìy à%Ô@F‚s9æ¸8»Û©^­º±]àTªÕvÇÈo~Á¼S7ÐqôD˜ó“#}pÀ;(>ÿ@¥ÌR¬(Ï€zB¸ù5fä
+‡C§²IæºÕtã' ¨éÓ #–ü„%×1pÖb8¹Õ5¶K•€¿ôGq9üöÿ~­Ê#  Xºº‡àÃ‡9n5Üà`WyzR4ôihl8•Çjè>å3|}%SÖíwÐ›Ùþ—@6€ÔÐÀ^ Æa0 b—ÿ	.Dv®íÎÎ‡ˆH$BÇÖŒíF…°µ±E`SÁ8€âJ¬f]ûà³½gñå¡Ëhòî4X¹Ô4¶[¦Ì Ã ÔB±~{›0b ‚Wp+{Þcr4iÐ5]Mÿ048RIåiÀÂ1}<Z ÓÜåz.=Öï wa^‰NÄô„ÀU 3Qœð` ýöð®ˆÔ:˜ïþ9¦ˆH$Â ^Mº¼®YÃfhÚ@põ-‡S*b@df·à.è°ä»øÚÏƒ µ}c4´ .øÅ9n­P¬Ü÷ÆîöKB@p‡‡ju*?iNÕÄÁÎƒûÆ¶ýÛM®Ao=_ôêÜÓØnpª(RˆðòU¶™…%<»€g·Ð¨UÈ¸qiN 5âžF]†F¥4ž³lIpÅGü‡ <4ª7• 	 Á5HÕjóìSŽéR»fm¼÷Î»Ø~`;2²2í  m‹¶iÛ‰«ÿqô†´Œ—–ØL×À¶pl‹€©³¡,ÈGúå3H=O"/ ;ö6ÔŠJs2þò‚@¬1©ŒN lyý2ÇÄqrpÂ¸¡ãpóN4Î\:ƒ‚Bãôî¨]³6:·E]^²ÅÑ3RQÅÙ¥Ö¶¨ÚuC{ 4*%rîßÅþ·ÛAm:'gJKñÞBq~ôÿK6¦SU	 ÁÊ)ÖŽ]ápôƒ™™š7	@£úq?ñ>bâðèÉ#äççC¥ÖÎ‡µ•ìmàåQõëÕ‡[M7½ÌÃáü‰èÕ+ ]Kþ¿½û­ê¬ã8þé½·½´”¥üXÂ´Óf©‹Ñ™°ØTÆ’iÐ¸%†L41:Ýö×Ü’ébœ°?æLHœh Ñ¸™Ìýh7Ô¡ÂY‡Ž_eÚ²ÚööÇmoï½½çÿ¸°Í¤œç¹œ>÷¼_	)¤<Ÿä–s¾çyžó<µZpãMªo^¬±žk¶å}Nå£uß¾ðµWRÏ…_'U¾ù¯U˜8II
+}Ÿ=Å(@e¥ëÒj]ÕªÖUïn^U(¬Ÿ¿žJ¥”J^Ý¹è€-á´þ_éyM&ÀIû%5Jª×»¯™«¼ÁÎ°Ê[ëŽª|c7
+‹ÐR’f‡mÜ0¿ÉbàÚK×¥£Ž X•°°¼$möp—UùÌp	•«´P €™ÅÆòÒº¹Fw¡*qm%dðaÕÏe  Ì$6
+€´Ùú.·p„Ñ@ºaæn´ qdc
+ UoôÏ€#*/Ò×8ÅB' ¨6	³-ª) ‘ú“NÕÖYŒ ˜	uF×ö¤­¨¬„>¬¤Ù	 `2`hØ	|XIN2€ªCf# µ  PmfÓ»L8"!ƒ£ €êc8½Ë€#2xm”Í  ]Û¹18ÂÆ¶Ñ  À1   ÄPUÏÕÆÇtôOPÇ+¿SÏ›o(ÓsN…Ü¸JÅ‚õëçÏüÂzŸ Ü°ãÁ­ÚñàÖK~oÖœ¹šÕÐ¨Å-+µò–ÛÔ¶a“–ßt3S¨ˆ\U ™ž³zñ‰Çtð…g5YÈG@Œå³£ÊgG5Ü×«ûöh×“?Tó²ºóÛéÖ»¿ÊŽªˆLUMx““zîñGô½[?ª×žÝÉÍÀŒ4Ø}F¿|è›zl}›ŽýíÏQÇALUM0>4¨§îÙ¨öíÛ¸ñpB_çq=u÷jß¾-ê(ˆ¡ª{é;¯mw­ÕÀ™ÓQG€«â{žž{üôë‹ß"ê8ˆçG &yýôk›¹ùpÚî§ŸÔ_v>uÄˆóÀ¯¾{ŸNÚu 0öëGÐéC:bÂé ëÈA½öìŽ¨c €Þä¤žyôAuÄ€ÓÀoô0ÿQ T•®#uè¥ßD1àlpî_¯óú€ª´ûg?Ž:bÀÙàÈïŸ: TD×?ÿ¡¡óÝQÇ@•s¶ x½ýÅ¨# @EA 7^ÙuT9'€ÉB^=ÇŽF *¦ëÈÁ¨# Ê9Y dzÎÊ÷¼¨c @Åœ{+ê¨rN ùl6ê PQ£#QG@•sr+`¯T
+Ý¶¹©Y·ßv‡Å4 ªA.?®¼åsDÆÆÇ´ÿ`¸Ê|ƒë0NŽ    3   Ä   1D  @Q   C   Ä   1D  @Q   C   Ä“@²¶6t[?ð-&P5‚
+té‡ïÔä:L‡“À¬Ù³C·-±¿6€Kð+P”¼ð×›tã‹I€©œ, LþcŒçÆ(õ¸­×…‰üDè¶õs-&¦r² hljV"™ÕÖ÷}eÇF-'à:Ïó¬÷™58º¼±y‘Å$ÀTN ©º´\¿<tû¾þÿXLÀyAeÖe†2¡Û.iYi1	0•“€$-iYºíÙž3“ pÝ¤7i}j0;–Un"ºýu-«-¦¦r¶ ø@ëÇB·ÍeÔ?À( €2“Åz—sæ¬ÙƒÆ²Ö6KI€Ks¶ X½fQûŽwØ	ÀyÅbÁj£ÙQõõ÷…n¿è†5/[a10•³À‡?¹F©ÚºÐí3Ãuë²€“J^Ižoo`:qê„Q7®Yo)pyÎ uõúÈÚOõq¸ã††Ã/Òà¾|1ü«z—r¢ó„FFGŒúhÛ°ÉRàòœ- $éS›¿bÔÞó<í=°×h¡ wù¾¯b±h­¿îÞnu÷tõ1wÑµ®û¬¥DÀå9] ´møœæ5õ1‘ŸÐÿº[ƒCƒ–RpE.?n¥Ÿ@:ßêÔñ“ÇûúÄ]_V"•²
+øÿœ. jÓ³´vË7ŒûÉçóÚ³÷Uuvb—@ &Š¥¢Š“æOÿ…BAG;Ôu¶Ë¸¯dm­nßzŸq?Àt8] HÒ_ÿŽÒáÏ¸Èó=î8¬—_mWïÛ=’˜©|ßW.göô_*•têô)í;°OƒVrÝò…{´pù­ô\‰óãLsšiÝ½ßRûömVúÍŽjï½ª¯¯×Ò%×kéuKÕ4¿Iéº´•þD+å²W½ó_ÊçóÊgÔ?Ð¯¡á!ù¾½ÝSuim¼ÿakýWR#ƒC0®øÅ(á¾¯¡ÞnùØÌã¢šššw¾&	%“I¥’Î×O@ìApÅ©¾ äyž<ß{çïVzz°aÞ|5Ì_`ÜOHEÃ¬“cYå‡BjüDÒýFpM¤T. jÂ48sÚnšì½ß÷U*•TÝÍC ÄWndX¹‘á¨cØÀB*G$$Ù™¼ @ê: ¦'!é|Ô!  U£7ê ˜ž„¤SQ‡  TÎ¨`z’vE P2’öEÓ“ô’${'a  âj—¤Ê½Ž«’’r’VHº9â,  wù’¶ŠueÎ¸øúßRI'%5D˜ à®’¶DÓ—¼ð5+iLÒÆ³  ÜÔ+éK*ßGàˆä{~¿_å‘€G” àž¼ÊÇ¢‚«“|ßŸ_Vy=@[Y  n‘´YÒž¨ƒàê½¿ ð$=/i\ÒúK|  IzSÒgT=†ƒ.wƒß§ò‚Ž•ßuV   êJú¤{%õEœ¦sco‘ôyI›$­–´¸¢‰  3IAåWûöHzAR»Ê¯ÃqažìÓ*µ–³ÌtsTÉŠ~ .j$-Tys›œ»#@³âp                                €0þUR°Psïç£    IEND®B`‚
