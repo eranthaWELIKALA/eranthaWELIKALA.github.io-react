@@ -3,11 +3,12 @@ import { Link } from "react-router-dom";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { useState, useEffect } from "react";
+import meImg from "@/assets/images/me.png";
 
 const Home = () => {
   const [displayedName, setDisplayedName] = useState("");
   const fullName = "Erantha Welikala";
-  
+
   useEffect(() => {
     let currentIndex = 0;
     const typingInterval = setInterval(() => {
@@ -18,7 +19,7 @@ const Home = () => {
         clearInterval(typingInterval);
       }
     }, 150);
-    
+
     return () => clearInterval(typingInterval);
   }, []);
 
@@ -74,11 +75,22 @@ const Home = () => {
 
   const experiences = [
     {
+      title: "Associate Tech Lead",
+      company: "AtLink Communication Inc",
+      period: "2026 Jan - Present",
+      highlights: [
+        "Own architectural design and technical decisions for key product components, ensuring scalability and maintainability.",
+        "Lead development of a product-based map management module, with end-to-end ownership of design and implementation.",
+        "Drive requirement analysis and documentation, translating business needs into user stories and technical tasks.",
+        "Coordinate development tasks with Software Engineers and improve delivery efficiency through CI/CD automation."
+      ],
+    },
+    {
       title: "Senior Software Engineer",
       company: "AtLink Communication Inc",
-      period: "2023 Jan - Present",
+      period: "2023 Jan - 2025 Dec",
       highlights: [
-        "Architecting microservices with Angular & Node.js ecosystem",
+        "Architecting microservices with React, Angular & Node.js ecosystem",
         "Implementing CI/CD automation pipelines with Jenkins & Docker",
         "Developing cross-platform mobile solutions with Ionic framework",
         "Research & implementation of ELK Stack for distributed logging",
@@ -102,15 +114,15 @@ const Home = () => {
       <section className="relative overflow-hidden">
         <div className="absolute inset-0 bg-[var(--gradient-mesh)]" />
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-background/50 to-background" />
-        
+
         <div className="container relative mx-auto px-4 pt-32 pb-20 md:pt-40 md:pb-32">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6 animate-fade-in-left">
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 backdrop-blur-sm animate-bounce-in">
                 <Terminal className="w-4 h-4 text-primary" />
-                <span className="text-sm font-medium text-primary">Senior Software Engineer</span>
+                <span className="text-sm font-medium text-primary">Associate Tech Lead</span>
               </div>
-              
+
               <h1 className="text-5xl md:text-6xl lg:text-5xl font-bold text-foreground leading-tight">
                 Hi, I'm{" "}
                 <span className="bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent animate-glow inline-block min-w-[200px]">
@@ -118,13 +130,13 @@ const Home = () => {
                   <span className="animate-pulse">|</span>
                 </span>
               </h1>
-              
+
               <h2 className="text-2xl md:text-3xl text-muted-foreground font-light">
-                Senior Software Engineer
+                Associate Tech Lead
               </h2>
-              
+
               <p className="text-lg text-foreground/70 max-w-xl leading-relaxed">
-                Senior Software Engineer with over 5 years of experience in building scalable and impactful software solutions.
+                Associate Tech Lead with over 5 years of experience in building scalable and impactful software solutions.
               </p>
 
               <p className="text-lg text-foreground/70 max-w-xl leading-relaxed">
@@ -137,7 +149,7 @@ const Home = () => {
               <p className="text-lg text-foreground/70 max-w-xl leading-relaxed">
                 Passionate about continuous learning and innovation, I thrive on crafting technology that makes a difference.
               </p>
-              
+
               <div className="flex flex-wrap gap-4 pt-4">
                 <Link to="/projects">
                   <Button size="lg" className="group shadow-[var(--shadow-elegant)] hover:shadow-[var(--shadow-glow)] transition-all">
@@ -173,9 +185,9 @@ const Home = () => {
                 {/* Animated gradient rings */}
                 <div className="absolute inset-0 rounded-full bg-gradient-to-r from-primary via-accent to-primary opacity-20 blur-3xl animate-pulse-glow" />
                 <div className="absolute -inset-4 rounded-full bg-gradient-to-r from-primary via-accent to-primary opacity-30 blur-2xl animate-rotate-gradient" style={{ animationDuration: '10s' }} />
-                
+
                 <img
-                  src="https://eranthawelikala.github.io/static/media/me.3e1cdb209e5c638341b4.png"
+                  src={meImg}
                   alt="Erantha Welikala - Software Engineer"
                   className="relative rounded-full w-full h-auto shadow-2xl border-4 border-primary/20 animate-float"
                 />
@@ -195,9 +207,9 @@ const Home = () => {
               { label: "Projects Shipped", value: "...", icon: Code2 },
               { label: "Coffee Consumed", value: "∞", icon: Cpu },
             ].map((stat, index) => (
-              <Card 
-                key={index} 
-                className="p-6 text-center hover:shadow-[var(--shadow-elegant)] transition-all hover:-translate-y-2 group animate-bounce-in border-primary/10" 
+              <Card
+                key={index}
+                className="p-6 text-center hover:shadow-[var(--shadow-elegant)] transition-all hover:-translate-y-2 group animate-bounce-in border-primary/10"
                 style={{ animationDelay: `${index * 100}ms` }}
               >
                 <stat.icon className="w-8 h-8 text-primary mx-auto mb-3 group-hover:scale-110 transition-transform" />
@@ -235,7 +247,7 @@ const Home = () => {
                 style={{ animationDelay: `${index * 150}ms` }}
               >
                 <div className={`absolute inset-0 bg-gradient-to-br ${skill.gradient} opacity-0 group-hover:opacity-100 transition-opacity duration-500`} />
-                
+
                 <div className="relative">
                   <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center mb-6 group-hover:scale-110 group-hover:rotate-6 transition-all duration-300">
                     <skill.icon className="w-8 h-8 text-primary" />
@@ -267,9 +279,9 @@ const Home = () => {
 
           <div className="max-w-4xl mx-auto space-y-8">
             {experiences.map((exp, index) => (
-              <Card 
-                key={index} 
-                className="p-8 hover:shadow-[var(--shadow-elegant)] transition-all hover:scale-[1.02] animate-slide-up border-l-4 border-l-primary" 
+              <Card
+                key={index}
+                className="p-8 hover:shadow-[var(--shadow-elegant)] transition-all hover:scale-[1.02] animate-slide-up border-l-4 border-l-primary"
                 style={{ animationDelay: `${index * 200}ms` }}
               >
                 <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-6">

@@ -35,15 +35,15 @@ const Footer = () => {
           </div>
 
           {/* Quick Links */}
-          <div>
+            <div>
             <h3 className="text-lg font-semibold text-foreground mb-4">Quick Links</h3>
             <div className="space-y-2 text-sm text-muted-foreground">
-              <a href="/" className="block hover:text-primary transition-colors">Home</a>
-              <a href="/about" className="block hover:text-primary transition-colors">About</a>
-              <a href="/projects" className="block hover:text-primary transition-colors">Projects</a>
-              <a href="/knowledge" className="block hover:text-primary transition-colors">Knowledge Library</a>
+              <a href="#/" className="block hover:text-primary transition-colors">Home</a>
+              <a href="#/about" className="block hover:text-primary transition-colors">About</a>
+              <a href="#/projects" className="block hover:text-primary transition-colors">Projects</a>
+              {/* <a href="#/knowledge" className="block hover:text-primary transition-colors">Knowledge Library</a> */}
             </div>
-          </div>
+            </div>
 
           {/* Social & Info */}
           <div>

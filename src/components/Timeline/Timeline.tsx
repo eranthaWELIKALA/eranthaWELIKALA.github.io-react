@@ -44,13 +44,35 @@ function Timeline() {
                                     <i className="fa fa-award"></i>
                                 </div>
                                 <h3 className="title text-lg font-semibold">
+                                    Associate Tech Lead
+                                </h3>
+                                <h6 className="sub-title italic text-sm text-gray-500">
+                                    AtLink Communication Inc [2026 Jan - Now]
+                                </h6>
+                                <div className="description text-sm text-gray-700">
+                                    Frontend development using <b>React, HTML/CSS & JS</b>
+                                </div>
+                                <div className="description text-sm text-gray-700">
+                                    Backend development using <b>NodeJS, NestJS, ExpressJS</b>
+                                </div>
+                                <div className="description text-sm text-gray-700">
+                                    CICD using <b>Jenkins, Docker</b>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="timeline">
+                            <div className="timeline-content">
+                                <div className="timeline-icon">
+                                    <i className="fa fa-award"></i>
+                                </div>
+                                <h3 className="title text-lg font-semibold">
                                     Senior Software Engineer
                                 </h3>
                                 <h6 className="sub-title italic text-sm text-gray-500">
-                                    AtLink Communication Inc [2023 Jan - Now]
+                                    AtLink Communication Inc [2023 Jan - 2025 Dec]
                                 </h6>
                                 <div className="description text-sm text-gray-700">
-                                    Frontend development using <b>Angular, HTML/CSS & JS</b>
+                                    Frontend development using <b>React, Angular, HTML/CSS & JS</b>
                                 </div>
                                 <div className="description text-sm text-gray-700">
                                     Backend development using <b>NodeJS, Laravel</b>

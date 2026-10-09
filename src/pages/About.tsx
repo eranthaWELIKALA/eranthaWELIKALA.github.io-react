@@ -4,9 +4,24 @@ import { Card } from "@/components/ui/card";
 const About = () => {
   const experiences = [
     {
+      title: "Associate Tech Lead",
+      company: "AtLink Communications (Pvt) Ltd",
+      period: "Jan 2026 - Present",
+      highlights: [
+        "Own architectural design and technical decision-making for key product components, ensuring scalability, maintainability, and alignment with long-term product goals.",
+        "Lead development of a core product module (map management), including system design, integration patterns, and feature ownership.",
+        "Drive requirement gathering and analysis by collaborating with stakeholders; author feature documents, user stories, and technical specifications.",
+        "Translate business requirements into actionable technical tasks and coordinate task distribution with a Senior Software Engineer to ensure timely delivery.",
+        "Research, propose, and validate technology stack decisions in collaboration with senior architects before implementation.",
+        "Design and implement CI/CD pipelines using Docker and Jenkins, reducing deployment effort and release turnaround time by over 50%.",
+        "Enforce coding standards and best practices across the team, improving SonarQube quality gate pass rate by 10%.",
+        "Mentor junior engineers and interns through design, development, and delivery phases, ensuring high-quality, production-ready outcomes."
+      ],
+    },
+    {
       title: "Senior Software Engineer",
       company: "AtLink Communications (Pvt) Ltd",
-      period: "Jan 2023 - Present",
+      period: "Jan 2023 - Dec 2025",
       highlights: [
         "Led architectural design decisions across multiple web projects, improving scalability and maintainability.",
         "Advocated coding standards and best practices, increasing SonarQube quality gate pass rate by 10%.",
@@ -136,7 +151,7 @@ const About = () => {
               </span>
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed">
-              Senior Software Engineer with over 5 years of experience designing, building, and optimizing
+              Associate Tech Lead with over 5 years of experience designing, building, and optimizing
               enterprise-grade systems. Passionate about crafting clean, efficient code and continuously exploring
               emerging technologies to deliver scalable, high-performance solutions.
             </p>

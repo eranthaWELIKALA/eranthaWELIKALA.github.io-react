@@ -23,6 +23,9 @@ import mtuteImg from "@/assets/images/projects/mtute.png";
 import mtuteMobileImg from "@/assets/images/projects/mtute-mobile.png";
 import thunderCricketImg from "@/assets/images/projects/thunder-cricket.png";
 import frsImg from "@/assets/images/projects/face-recognition-system.png";
+import reviewDeskImg from "@/assets/images/projects/review-desk.png";
+import cricketLkImg from "@/assets/images/projects/cricket-lk.png";
+import chargeLkImg from "@/assets/images/projects/charge-lk.png";
 
 const Projects = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
@@ -30,6 +33,33 @@ const Projects = () => {
   const categories = ["All", "Web", "Mobile", "Full-stack", "Backend / API", "Desktop", "DevOps", "CLI / Tools", "AI / Machine Learning", "Embedded / IoT"];
 
   const projects = [
+    {
+      title: "Review Desk",
+      description: "Design-review platform where teams upload screenshots into sections and reviewers leave feedback pinned to the exact spot on a design — no reviewer account needed. Static frontend on GitHub Pages backed by a Cloudflare Worker, with Clerk sign-in, role-based spaces (owners, editors, reviewers), email invites, Cloudflare D1 for accounts and audit logs, and versioned storage in a private GitHub repo.",
+      categories: ["Web", "Full-stack"],
+      technologies: ["JavaScript", "Cloudflare Workers", "Cloudflare D1", "Clerk", "GitHub API", "Resend"],
+      image: reviewDeskImg,
+      github: "https://github.com/eranthaWELIKALA/review-desk",
+      demo: "https://eranthawelikala.github.io/review-desk/",
+    },
+    {
+      title: "Cricket.lk",
+      description: "Ball-by-ball cricket scorer built as an installable, offline-first PWA. Tracks full limited-overs matches (extras, free hits, run rates, batting/bowling figures, fall of wickets), plus tournaments with points tables and NRR, team and player rosters, configurable playing-condition presets, stats leaderboards, auto-computed MVP, and PNG/PDF scorecard export. Optional sign-in and sync via Supabase.",
+      categories: ["Web", "Mobile"],
+      technologies: ["JavaScript", "HTML", "CSS", "PWA", "Service Worker", "Supabase"],
+      image: cricketLkImg,
+      github: "https://github.com/eranthaWELIKALA/cricket-lk",
+      demo: "https://eranthawelikala.github.io/cricket-lk/",
+    },
+    {
+      title: "Charge.lk",
+      description: "EV charging time and cost calculator for Sri Lanka, built as an installable PWA with no build step or dependencies. Saves your cars between visits, models the charge curve, works offline, and runs a real-time charging session that alerts you before the charge finishes using a service worker, notifications and the Wake Lock API.",
+      categories: ["Web", "Mobile"],
+      technologies: ["JavaScript", "HTML", "CSS", "PWA", "Service Worker"],
+      image: chargeLkImg,
+      github: "https://github.com/eranthaWELIKALA/charge-lk",
+      demo: "https://eranthawelikala.github.io/charge-lk/",
+    },
     {
       title: "Flower Inventory Management",
       description: "Electron desktop application for florists to manage inventory, suppliers and sales. Built with React + TypeScript (Vite) on the frontend, Prisma ORM for MySQL on the backend, and packaged as a native desktop app with Electron. Includes internationalization, theming, and packaged macOS installers.",
