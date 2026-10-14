@@ -1,5 +1,6 @@
 import { Award, BookOpen, Briefcase, GraduationCap, Code2, Terminal, Zap } from "lucide-react";
 import { Card } from "@/components/ui/card";
+import { YEARS_OF_EXPERIENCE } from "@/lib/experience";
 
 const About = () => {
   const experiences = [
@@ -151,7 +152,7 @@ const About = () => {
               </span>
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed">
-              Associate Tech Lead with over 5 years of experience designing, building, and optimizing
+              Associate Tech Lead with over {YEARS_OF_EXPERIENCE} years of experience designing, building, and optimizing
               enterprise-grade systems. Passionate about crafting clean, efficient code and continuously exploring
               emerging technologies to deliver scalable, high-performance solutions.
             </p>

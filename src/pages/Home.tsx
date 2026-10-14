@@ -4,6 +4,7 @@ import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { useState, useEffect } from "react";
 import meImg from "@/assets/images/me.png";
+import { YEARS_OF_EXPERIENCE } from "@/lib/experience";
 
 const Home = () => {
   const [displayedName, setDisplayedName] = useState("");
@@ -136,7 +137,7 @@ const Home = () => {
               </h2>
 
               <p className="text-lg text-foreground/70 max-w-xl leading-relaxed">
-                Associate Tech Lead with over 5 years of experience in building scalable and impactful software solutions.
+                Associate Tech Lead with over {YEARS_OF_EXPERIENCE} years of experience in building scalable and impactful software solutions.
               </p>
 
               <p className="text-lg text-foreground/70 max-w-xl leading-relaxed">
@@ -202,7 +203,7 @@ const Home = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {[
-              { label: "Years Coding", value: "5+", icon: Terminal },
+              { label: "Years Coding", value: `${YEARS_OF_EXPERIENCE}+`, icon: Terminal },
               { label: "Tech Stack", value: "...", icon: Layers },
               { label: "Projects Shipped", value: "...", icon: Code2 },
               { label: "Coffee Consumed", value: "∞", icon: Cpu },
