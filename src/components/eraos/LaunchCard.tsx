@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Power, X } from "lucide-react";
-import { storage } from "./config";
+import { storage } from "./storage";
 import "./eraos.css";
 
 const DISMISS_KEY = "eraos-launch-dismissed";

@@ -407,7 +407,7 @@ export default class EraOS extends Component<Props, State> {
 
   private wallpaperStyle(): CSSProperties {
     const wp = WALLPAPERS.find((w) => w.id === this.state.wallpaper) ?? WALLPAPERS[0];
-    return { backgroundImage: `url(${wp.src})` };
+    return { backgroundImage: `url("${wp.src}")` };
   }
 
   private renderAppBody(w: Win, api: OsApi): ReactNode {

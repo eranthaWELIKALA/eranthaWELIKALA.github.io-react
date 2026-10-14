@@ -353,7 +353,7 @@ export const SettingsApp = ({ os }: { os: OsApi }) => {
   return (
     <div className="eo-body" style={{ padding: 24, display: "flex", flexDirection: "column", gap: 22 }}>
       <div style={{ display: "flex", flexWrap: "wrap", gap: 20, alignItems: "center" }}>
-        <div className="eo-wall" style={{ flex: "0 0 auto", width: 240, maxWidth: "100%", aspectRatio: "16 / 10", borderRadius: 12, border: "1px solid rgba(255,255,255,.2)", boxShadow: "0 12px 30px rgba(0,0,0,.4)", backgroundImage: `url(${current.src})` }} />
+        <div className="eo-wall" style={{ flex: "0 0 auto", width: 240, maxWidth: "100%", aspectRatio: "16 / 10", borderRadius: 12, border: "1px solid rgba(255,255,255,.2)", boxShadow: "0 12px 30px rgba(0,0,0,.4)", backgroundImage: `url("${current.src}")` }} />
         <div style={{ flex: "1 1 200px", display: "flex", flexDirection: "column", gap: 6 }}>
           <span className="eo-label">Current wallpaper</span>
           <b style={{ fontSize: 24 }}>{current.name}</b>
@@ -365,7 +365,7 @@ export const SettingsApp = ({ os }: { os: OsApi }) => {
         <div className="eo-wp-grid">
           {WALLPAPERS.map((w) => (
             <button key={w.id} className="eo-wp" aria-pressed={w.id === os.wallpaper} onClick={() => os.setWallpaper(w.id)}>
-              <span className="eo-wall" style={{ backgroundImage: `url(${w.src})` }} />
+              <span className="eo-wall" style={{ backgroundImage: `url("${w.src}")` }} />
               {w.name}
             </button>
           ))}
