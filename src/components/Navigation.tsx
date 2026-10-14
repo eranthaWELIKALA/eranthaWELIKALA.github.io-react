@@ -1,5 +1,5 @@
-import { NavLink } from "react-router-dom";
-import { Menu, X } from "lucide-react";
+import { Link, NavLink } from "react-router-dom";
+import { Menu, Power, X } from "lucide-react";
 import { useState } from "react";
 
 const Navigation = () => {
@@ -35,6 +35,13 @@ const Navigation = () => {
                 {item.name}
               </NavLink>
             ))}
+            <Link
+              to="/os"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-primary/30 bg-primary/10 text-primary text-sm font-semibold hover:bg-primary hover:text-primary-foreground transition-colors"
+            >
+              <Power size={15} />
+              EraOS mode
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -64,6 +71,14 @@ const Navigation = () => {
                 {item.name}
               </NavLink>
             ))}
+            <Link
+              to="/os"
+              onClick={() => setIsOpen(false)}
+              className="mt-2 inline-flex items-center gap-2 px-4 py-2 rounded-full border border-primary/30 bg-primary/10 text-primary text-sm font-semibold"
+            >
+              <Power size={15} />
+              EraOS mode
+            </Link>
           </div>
         )}
       </div>
