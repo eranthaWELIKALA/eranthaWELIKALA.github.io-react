@@ -47,6 +47,7 @@ interface State {
   icons: Partial<Record<AppId, Pos>>;
   dragIcon: AppId | null;
   lockOut: boolean;
+  homePage: number;
   browserReq: { url: string; n: number } | null;
 }
 
@@ -96,6 +97,18 @@ export default class EraOS extends Component<Props, State> {
   private justDragged = false;
   private lockY: number | null = null;
   private spotRef = createRef<HTMLInputElement>();
+  private pagerRef = createRef<HTMLDivElement>();
+
+  private onPagerScroll = () => {
+    const el = this.pagerRef.current;
+    if (!el) return;
+    const page = Math.round(el.scrollLeft / el.clientWidth);
+    if (page !== this.state.homePage) this.setState({ homePage: page });
+  };
+  private goToPage = (page: number) => {
+    const el = this.pagerRef.current;
+    el?.scrollTo({ left: page * el.clientWidth, behavior: "smooth" });
+  };
 
   constructor(props: Props) {
     super(props);
@@ -106,7 +119,7 @@ export default class EraOS extends Component<Props, State> {
       wins: {}, top: 1, order: 0,
       menu: false, spot: false, spotQ: "", ctx: null, toast: null,
       wallpaper: WALLPAPERS.some((w) => w.id === saved) ? saved! : "teahills",
-      tips: true, icons: loadIcons(), dragIcon: null, lockOut: false, browserReq: null,
+      tips: true, icons: loadIcons(), dragIcon: null, lockOut: false, browserReq: null, homePage: 0,
     };
   }
 
@@ -623,7 +636,8 @@ export default class EraOS extends Component<Props, State> {
           <span className="eo-island" />
           <span className="eo-status-right"><Signal size={16} aria-hidden="true" /><Wifi size={16} aria-hidden="true" /><BatteryFull size={22} aria-hidden="true" /></span>
         </div>
-        <div className="eo-home">
+        <div className="eo-pager" ref={this.pagerRef} onScroll={this.onPagerScroll} aria-label="Home screen pages">
+        <section className="eo-page" aria-label="Home, page 1 of 2">
           <div className="eo-widgets">
             <div className="eo-ios-widget">
               <span style={{ fontSize: 13, fontWeight: 600, color: "#ffb4a0" }}>{dayName}</span>
@@ -656,7 +670,22 @@ export default class EraOS extends Component<Props, State> {
               <span className="eo-tile" style={{ ...tileStyle("#2a2540", 62), fontSize: 17, color: "#ffb4c4" }}>www</span><span>Website</span>
             </button>
           </div>
-          <div className="eo-dots"><i /><i /></div>
+        </section>
+        <section className="eo-page" aria-label="Projects, page 2 of 2">
+          <div className="eo-page-title"><b>Projects</b><span>{projects.length} apps · tap one to open it</span></div>
+          <div className="eo-home-grid">
+            {projects.map((p, i) => (
+              <button key={i} className="eo-home-app" onClick={() => this.openProject(i)} onContextMenu={(e) => this.openCtx(e, { type: "project", id: i })}>
+                <img src={p.image} alt="" /><span>{p.title}</span>
+              </button>
+            ))}
+          </div>
+        </section>
+        </div>
+        <div className="eo-dots" role="tablist" aria-label="Home screen pages">
+          {[0, 1].map((i) => (
+            <button key={i} role="tab" aria-selected={this.state.homePage === i} aria-label={i === 0 ? "Home page" : "Projects page"} onClick={() => this.goToPage(i)}><i /></button>
+          ))}
         </div>
         <nav className="eo-phone-dock" aria-label="Dock">
           {(["finder", "about", "contact", "term"] as AppId[]).map((id) => (
