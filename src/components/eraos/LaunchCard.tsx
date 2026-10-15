@@ -15,7 +15,11 @@ const LaunchCard = () => {
       <button className="eo-launch-x" aria-label="Hide EraOS card" onClick={() => { storage.set(DISMISS_KEY, "1"); setHidden(true); }}>
         <X size={14} aria-hidden="true" />
       </button>
-      <span className="eo-launch-text"><b>Try EraOS</b>Explore my work as a desktop</span>
+      <span className="eo-launch-text">
+        <b>Try EraOS</b>
+        <span className="eo-launch-desktop">Explore my work as a desktop</span>
+        <span className="eo-launch-phone">Explore my work as a phone</span>
+      </span>
       <Link to="/os" className="eo-launch-go"><Power size={16} strokeWidth={2.4} aria-hidden="true" />Boot</Link>
     </div>
   );
