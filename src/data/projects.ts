@@ -19,8 +19,18 @@ import frsImg from "@/assets/images/projects/face-recognition-system.png";
 import reviewDeskImg from "@/assets/images/projects/review-desk.png";
 import cricketLkImg from "@/assets/images/projects/cricket-lk.png";
 import chargeLkImg from "@/assets/images/projects/charge-lk.png";
+import splitzyLkImg from "@/assets/images/projects/splitzy-lk.png";
 
 const rawProjects = [
+  {
+    title: "Splitzy",
+    description: "Splitwise-style app for sharing expenses with friends, flatmates and travel groups, built as an installable PWA. Splits equally, by exact amounts, percentages, shares or adjustments with multiple payers, simplifies group debts, suggests settle-up payments, and notifies everyone involved in real time. Friends added by email see shared expenses when they join. React + TypeScript on GitHub Pages, backed by Supabase auth and Postgres with row level security and trigger-driven activity feeds.",
+    categories: ["Web", "Mobile", "Full-stack"],
+    technologies: ["React", "TypeScript", "Tailwind CSS", "Zustand", "Supabase", "PostgreSQL", "PWA"],
+    image: splitzyLkImg,
+    github: "https://github.com/eranthaWELIKALA/splitzy-lk",
+    demo: "https://eranthawelikala.github.io/splitzy-lk/",
+  },
   {
     title: "Review Desk",
     description: "Design-review platform where teams upload screenshots into sections and reviewers leave feedback pinned to the exact spot on a design — no reviewer account needed. Static frontend on GitHub Pages backed by a Cloudflare Worker, with Clerk sign-in, role-based spaces (owners, editors, reviewers), email invites, Cloudflare D1 for accounts and audit logs, and versioned storage in a private GitHub repo.",
@@ -244,6 +254,7 @@ export interface Project {
 }
 
 const meta: Record<string, Pick<Project, "kind" | "summary" | "demoLabel">> = {
+  "Splitzy": { kind: "PWA", summary: "Split expenses with friends and groups, settle up, and get live notifications." },
   "Review Desk": { kind: "Web app", summary: "Design-review platform: reviewers pin feedback to the exact spot on a screenshot, no account needed." },
   "Cricket.lk": { kind: "PWA", summary: "Offline-first ball-by-ball cricket scorer with tournaments, NRR and scorecard export." },
   "Charge.lk": { kind: "PWA", summary: "EV charging time and cost calculator for Sri Lanka, with live charging alerts." },
