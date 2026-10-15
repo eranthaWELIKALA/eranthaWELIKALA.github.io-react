@@ -208,7 +208,7 @@
 .eo-status-right { justify-self: end; display: flex; gap: 6px; align-items: center; }
 .eo-pager { position: absolute; inset: 0; display: flex; overflow-x: auto; overflow-y: hidden; scroll-snap-type: x mandatory; scrollbar-width: none; overscroll-behavior-x: contain; animation: eo-home 0.35s ease-out; }
 .eo-pager::-webkit-scrollbar { display: none; }
-.eo-page { flex: 0 0 100%; height: 100%; scroll-snap-align: start; scroll-snap-stop: always; overflow-y: auto; padding: 58px 18px 170px; display: flex; flex-direction: column; gap: 22px; }
+.eo-hpage { flex: 0 0 100%; width: 100%; height: 100%; scroll-snap-align: start; scroll-snap-stop: always; overflow-y: auto; padding: 58px 18px 170px; display: flex; flex-direction: column; gap: 22px; }
 .eo-page-title { display: flex; flex-direction: column; gap: 2px; text-shadow: 0 1px 6px rgba(0, 0, 0, 0.45); }
 .eo-page-title b { font-size: 28px; letter-spacing: -0.02em; }
 .eo-page-title span { font-size: 13px; opacity: 0.85; }

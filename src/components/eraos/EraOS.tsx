@@ -629,6 +629,12 @@ export default class EraOS extends Component<Props, State> {
   private renderPhoneChrome(clock: string, slTime: string, years: number) {
     const anyOpen = Object.values(this.state.wins).some((w) => !w.min);
     const dayName = this.state.now.toLocaleDateString("en-GB", { weekday: "long" }).toUpperCase();
+    // Like iOS, pages never scroll vertically: fit as many 4-icon rows as the screen height allows.
+    const rows = Math.max(3, Math.floor((window.innerHeight - 58 - 70 - 170) / 106));
+    const perPage = rows * 4;
+    const projectPages: number[][] = [];
+    for (let i = 0; i < projects.length; i += perPage) projectPages.push(projects.slice(i, i + perPage).map((_, k) => i + k));
+    const pageCount = 1 + projectPages.length;
     return (
       <>
         <div className="eo-status">
@@ -637,7 +643,7 @@ export default class EraOS extends Component<Props, State> {
           <span className="eo-status-right"><Signal size={16} aria-hidden="true" /><Wifi size={16} aria-hidden="true" /><BatteryFull size={22} aria-hidden="true" /></span>
         </div>
         <div className="eo-pager" ref={this.pagerRef} onScroll={this.onPagerScroll} aria-label="Home screen pages">
-        <section className="eo-page" aria-label="Home, page 1 of 2">
+        <section className="eo-hpage" aria-label={`Home, page 1 of ${pageCount}`}>
           <div className="eo-widgets">
             <div className="eo-ios-widget">
               <span style={{ fontSize: 13, fontWeight: 600, color: "#ffb4a0" }}>{dayName}</span>
@@ -671,20 +677,25 @@ export default class EraOS extends Component<Props, State> {
             </button>
           </div>
         </section>
-        <section className="eo-page" aria-label="Projects, page 2 of 2">
-          <div className="eo-page-title"><b>Projects</b><span>{projects.length} apps · tap one to open it</span></div>
-          <div className="eo-home-grid">
-            {projects.map((p, i) => (
-              <button key={i} className="eo-home-app" onClick={() => this.openProject(i)} onContextMenu={(e) => this.openCtx(e, { type: "project", id: i })}>
-                <img src={p.image} alt="" /><span>{p.title}</span>
-              </button>
-            ))}
-          </div>
-        </section>
+        {projectPages.map((page, pi) => (
+          <section key={pi} className="eo-hpage" aria-label={`Projects, page ${pi + 2} of ${pageCount}`}>
+            <div className="eo-page-title">
+              <b>Projects{projectPages.length > 1 ? ` ${pi + 1}/${projectPages.length}` : ""}</b>
+              <span>{projects.length} apps · tap one to open it</span>
+            </div>
+            <div className="eo-home-grid">
+              {page.map((i) => (
+                <button key={i} className="eo-home-app" onClick={() => this.openProject(i)} onContextMenu={(e) => this.openCtx(e, { type: "project", id: i })}>
+                  <img src={projects[i].image} alt="" /><span>{projects[i].title}</span>
+                </button>
+              ))}
+            </div>
+          </section>
+        ))}
         </div>
         <div className="eo-dots" role="tablist" aria-label="Home screen pages">
-          {[0, 1].map((i) => (
-            <button key={i} role="tab" aria-selected={this.state.homePage === i} aria-label={i === 0 ? "Home page" : "Projects page"} onClick={() => this.goToPage(i)}><i /></button>
+          {Array.from({ length: pageCount }, (_, i) => (
+            <button key={i} role="tab" aria-selected={this.state.homePage === i} aria-label={i === 0 ? "Home page" : `Projects page ${i}`} onClick={() => this.goToPage(i)}><i /></button>
           ))}
         </div>
         <nav className="eo-phone-dock" aria-label="Dock">
